@@ -1,0 +1,141 @@
+/*** Title ***/
+.register-title {
+    text-align: center;
+    margin: 15vh 0 5vh 0;
+}
+
+#title {
+    color: white;
+    font-size: min(3em, 48px);
+}
+
+/*** Form ***/
+label {
+    /* styling */
+    font-weight: bold;
+    color: #fff;
+
+    /* formatting */
+}
+
+input {
+    /* styling */
+    background-color: #686868;
+    border-radius: .6rem;
+    border-width: 0;
+    color: white;
+    font-size: 1em;
+
+    /* formatting */
+    padding: .3rem;
+    padding-left: 5%;
+    height: 1.5rem;
+    width: 93%;
+}
+
+input:focus {
+    outline-width: 0;
+    background-color: #787878;
+}
+
+.form-group {
+    margin: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.team-members {
+    /* styling */
+    color: white;
+    font-weight: bold;
+
+    /* formatting */
+    display: block;
+    text-align: center;
+}
+
+#members-list {
+    display: grid;
+    grid-template-columns: 5fr 4fr;
+}
+
+#no-members-text {
+    font-weight: bold;
+    color: #686868;
+}
+
+.names {
+    margin-top: 0.7vh;
+    text-align: right;
+}
+
+.remove-user {
+    color: #787878;
+    font-weight: bold;
+    font-size: 1.2em;
+    background-color: transparent;
+    border-width: 0;
+    text-align: left;
+    padding: 0 10px;
+}
+
+#members-title {
+    font-size: 1.2em;
+    margin-right: 5%;
+}
+
+#add-member-btn {
+    /* styling */
+    background-color: #686868;
+    padding: 5px;
+    border-radius: 50%;
+    border-width: 0;
+    color: white;
+    font-size: 1.3em;
+
+    /* formatting */
+    height: 1.75em;
+    width: 1.75em;
+    
+}
+
+#add-member-btn:hover {
+    background-color: #787878;
+}
+
+#virtual-icon {
+    font-size: 1.5em;
+    vertical-align: middle;
+    height: 1em;
+}
+
+#create-btn {
+    /* styling */
+    background: #fff;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+    border-width: 0;
+    font-size: 0.9em;
+    font-weight: bold;
+
+    /* formatting */
+    text-align: center;
+    width: 50%;
+    margin-top: 5%;
+    padding: .5em .5em;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.error {
+    background-color: #686868;
+    border-radius: 1em;
+    padding: 1em 2em;
+    text-align: center;
+    margin: 1em;
+}
+
+/*** Footer ***/

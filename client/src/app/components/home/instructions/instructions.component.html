@@ -1,0 +1,395 @@
+<app-masthead class="header"></app-masthead>
+<div class="page-title">
+    <h1>Instructions</h1>
+</div>
+
+<div class="intructions">
+
+    <!-- Overview -->
+    <p>
+        The Art Hunt is a game that will test your ability to develop and execute strategy under conditions of uncertainty. 
+        You will have to make trade-offs, work as a team to achieve your goals, and take varying motivations and capabilities into account. 
+        This will involve drawing on a variety of skills and perspectives and continually testing assumptions and scenarios.
+        <br><br>
+        Every decision, including those of other teams, will influence the outcome of the game, meaning no single strategy will guarantee success. 
+        You will need to plan, and then you will need to adapt.
+        <br><br>
+    </p>
+
+
+    <!-- Expansions ["Game Description", "Team Points and Scoring", "Game Rounds and Site Points", "Site/Artefact Considerations", "Virtual VS Field Members", "Rules"] -->
+
+    <!-- Expansion 1 - Game Description -->
+    <mat-expansion-panel class="rule-expansion">
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                <h2 class="rule-expansion-title">Game Description</h2>
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+        
+        <div class="rule-expansion-text">
+            <p>
+                At its most basic, the Art Hunt sees teams competing against each other for points by visiting sites of artistic or 
+                heritage value around the city and entering information about each one. You will have limited time, typically around 
+                2.5 hours. Sites are widely distributed, with a maximum distance from home base of around 2 km, and are indicated on a map provided in the app.
+            </p>
+            <p>At each site you’ll find a noteworthy artefact, which may include:</p>
+            <ul>
+                <li>Sculptures</li>
+                <li>Statues</li>
+                <li>Paintings and murals</li>
+                <li>Architectural features</li>
+                <li>Memorials</li>
+                <li>Other noteworthy fixtures</li>
+            </ul>
+            <p>
+                Your team must take a photo of itself with the art work/artefact featured clearly and prominently in the image. You will also have the 
+                option to enter details about the site for additional points. Details are selected from a list of about 25 options and cover:
+            </p>
+            <ul>
+                <li>Theme</li>
+                <li>Close-up image</li>
+                <li>Artefact title or name</li>
+                <li>Artist name</li>
+                <li>Artefact year</li>
+            </ul>
+            <p>
+                The theme is an abstract concept related to the artefact. To determine the theme, you will need to consider the work 
+                in its larger context, and draw clues from plaques, inscriptions, or online resources.
+                <br><br>
+                The close-up image is a macro photo taken from somewhere on the artefact, so you will need to pay close attention; 
+                there is only one correct close-up image per site.
+                <br><br>
+                The title, artist name, and year have been determined by research. In some cases, these details are not available or 
+                known; if you correctly identify unknown details, your team will earn the associated points for that detail.
+            </p>
+        </div>
+    </mat-expansion-panel>
+
+
+
+
+    <!-- Expansion 2 - Team Points and Scoring -->
+    <mat-expansion-panel class="rule-expansion">
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                <h2 class="rule-expansion-title">Team Points and Scoring</h2>
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+        
+        <div class="rule-expansion-text">
+            <p>
+                The app contains a list of sites and a map, both of which show the number of points your team will earn for successfully 
+                submitting that site. The starting points are broken into the following categories:
+            </p>
+            <ul>
+                <li>Site: 25%</li>
+                <li>Theme: 40%</li>
+                <li>Close-up image: 20%</li>
+                <li>Title: 5%</li>
+                <li>Artist: 5%</li>
+                <li>Year: 5%</li>
+            </ul>
+            <p>
+                These point proportions may change over the course of the game as teams visit sites and affect the points, but 
+                they are a good guide when planning your strategy.
+                <br><br>
+                Except for the site points (taking a team photo at the correct site), all other details are optional and you may choose 
+                not to submit them. You will earn the indicated points for correct answers, and lose the indicated value for incorrect 
+                answers, and these points will go back onto the site.
+                <br><br>
+                Points are allocated for each detail according to the following:
+            </p>
+            <ul>
+                <li>Correct answer: site points >>> team points</li>
+                <li>No answer submitted: no change in points for either team or site</li>
+                <li>Incorrect answer: team points <<< site points</li>
+            </ul>
+            <p>
+                Be aware that if you get the site wrong, you will almost certainly get all the other details wrong, and therefore lose all 
+                other points associated with that site.
+            </p>
+            <h4>Proportional Points for Team Members</h4>
+            <p>
+                All team members must be present in the site photos to earn full points, and you will be penalised for team members missing from 
+                the photo. The more team members, the more points you lose. And the rate of lose is not linear, it increases with each absent team member.
+                <br><br>
+                Proportional points do not apply for team members who are registered as virtual or office-based participants. These people are 
+                not expected to be in the photos and you will not lose points for their absence.
+            </p>
+            <h4>Team Points Growth</h4>
+            <p>
+                Each team will earn a growth rate according to half the average growth rate of the sites it visits (details of site growth rates can be found in the Game Rounds and Site Points section). 
+                Therefore, it's worthwhile targeting sites with higher growth rates to increase your team's points over time.
+            </p>
+            <h4>Revisiting Sites</h4>
+            <p>
+                It is not possible for a team to visit and submit the same site more than once, no matter how successful your previous submission.
+            </p>
+            <h4>Strategy Points and Ranking</h4>
+            <p>
+                Teams can earn points by selecting and adhering to specific strategies. This is done through the Strategies page in the app.
+                <br><br>
+                The strategies listed aren't strategies, per se, but represent approaches that are consistent with different types of strategies 
+                and are measurable and can be ranked automatically within the game. For example, there is longest distance, most accurate, most sites, etc.
+                <br><br>
+                To earn points, your team must select a strategy and then achieve that strategy by being the highest ranking team according to 
+                that measure for a given game round. Strategies are evaluated every round, so success or failure in one round does not impact 
+                subsequent rounds. However, it's important to keep in mind that while strategies are evaluated every round, the items being ranked 
+                are the totals for the entire game, not only what was achieve during that round. In other words, if your team has visited the most sites 
+                throughout the game and is ranked 1 overall, you will achieve this strategy even if you visited no sites in the last round.
+                <br><br>
+                Your team will earn a 3% bonus on its total points for every round in which it has selcted and achieved the strategy. If you are top-ranked 
+                on a measure but haven't selected it as a strategy, your team doesn't earn additional points. And if you have selected a strategy but failed 
+                to achieve it, your team will lose 3% of its total points for that round. Although these may not seem like significant numbers, subject to 
+                compounding they can have a large impact on your overall score.
+                <br><br>
+                Your team normally has no visibility of your team's rankings except whether or not you have achieved a strategy. However, virtual team members 
+                will have visibility of your team's ranking across all measures.
+                <br><br>
+                You can select a strategy at any time by clicking on the 'Start' button next to the strategy. The table should indicate it has been selected, 
+                and the button will change to 'Stop', which can be used to de-select the strategy. Only strategies that are selected at the conclusion of a game 
+                round are evaluated, and there is no penalty for starting or stopping strategies at any time.
+            </p>
+            <h4>Transferring Points</h4>
+            <p>
+                Teams may transer points between each other, and may choose to do so for many valid reasons, such as in return for providing site 
+                information, agreeing to not submit a site, etc. Use the Transfer Points page to access this functionality.
+            </p>
+        </div>
+    </mat-expansion-panel>
+
+
+
+
+    <!-- Expansion 3 - Game Rounds and Site Points -->
+    <mat-expansion-panel class="rule-expansion">
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                <h2 class="rule-expansion-title">Game Rounds and Site Points</h2>
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+        
+        <div class="rule-expansion-text">
+            <p>
+                Site points are not static and will change throughout the game. The changes include (details follow):
+            </p>
+            <ul>
+                <li>Points change from team visits, as detailed in the Scoring section.</li>
+                <li>Site growth rates.</li>
+                <li>Site points regeneration.</li>
+            </ul>
+            <h4>Game Rounds</h4>
+            <p>
+                Several elements of the Art Hunt, such as points growth, are controlled by timers. Each time the main timer 
+                ticks over, a game round is complete. You should see notifications in the app when this happens.
+                <br><br>
+                Typically, each round will last for around 3 to 5 minutes.
+                <br><br>
+                At the end of each game round, the following will occur:
+            </p>
+            <ul>
+                <li>Team points growth rates will be applied.</li>
+                <li>Team strategies will be evaluated and strategy points allocated.</li>
+                <li>If teams have transferred points in a previous round, they will be allowed to transfer points again.</li>
+                <li>Team rankings will be updated.</li>
+            </ul>
+            <p>
+                In addition to the main timer, a secondary timer controls site growth rates and points regeneration (details follow below).
+            </p>
+            <h4>Site Growth Rates</h4>
+            <p>
+                Each site has a growth rate, which typically starts at 1% to 5% per round of growth, but grows after that. 
+                That is, the site's points grow, but so does it's growth rate. More distant and isolated works generally attract 
+                a greater growth rate. The growth rate will continue to grow as long as:
+            </p>
+            <ul>
+                <li>the site is not visited</li>
+                <li>the growth rate has not reached it's maximum level (currently 6%)</li>
+                <li>the site's total points have not reached the maximum level (currently 10,000)</li>
+            </ul>
+            <p>
+                The map and site list will be updated to reflect the changes. If a site is visited, it's growth rate reverts to the original level and begins growing again.
+                <br><br>
+                Site growth points are not assigned for each game round, but according to the site regeneration timer as outlined in the following section.
+            </p>
+            <h4>Site Growth Rates Relationship to Team Growth Rate</h4>
+            <p>
+                As detailed in the Scoring section, team points also grow over time. Your team's points growth rate will be half the 
+                rate of the average of the sites you successfully submit. For example, if your team submits sites with 2%, 3%, and 4% 
+                growth rates, the average will be 3%. Therefore, your team points growth rate will be 1.5% per round, until you submit another site and change it.
+            </p>
+
+            <h4>Site Points Depletion and Regeneration</h4>
+            <p>
+                When the sites regenation timer ticks over and randomly selects sites for updating, there are two types of sites it can encounter:
+            </p>
+            <ul>
+                <li>
+                    A visited site (or depleted site) - the points have changed since the last timer tick because a team has taken points from it, 
+                    or sometimes left points on it for incorrect details. Points regeneration and growth rates will apply to this site.
+                </li>
+                <li>
+                    An unvisited site - the points have not changed since the last timer tick. Only points growth rates will apply to this site.
+                </li>
+            </ul>
+            <p>
+                If another team visits a site immediately after a previous visit, the new team is unlikely to win many points (if the previous team was accurate). However, sites are re-allocated points over time, so it may be worth waiting a few minutes before visiting a site after another team.
+                <br><br>
+                In terms of the impact on strategy, points to keep in mind:
+            </p>
+            <ul>
+                <li>
+                    Don't visit a site immediately after another team, instead, give it time to regenerate (but be prepared to wait at least one game round or more).
+                </li>
+                <li>
+                    If you are following a very accurate and thorough team, the generated site will have reverted to a relatively low score and may not be worthwhile.
+                </li>
+                <li>
+                    If you are following an inaccurate team, a team that's not at all thorough, or visiting a difficult site that's had lots of errors, the visited site 
+                    is likely to have a higher score compared to what it would have had without visits.
+                </li>
+                <li>
+                    In all cases, a site's growth rate reverts back to it's lowest point after a visit. Early in the game, this has little impact, 
+                    but later it means a site's growth will slow considerably.
+                </li>
+            </ul>
+            <h4>Locked Sites</h4>
+            <p>
+                Once a team submits a site, it needs to be checked manually by the event administrator. This normally happens quickly, 
+                but it's possible for there to be a delay of up to a few minutes before this occurs. During this time, the site is considered 
+                locked and cannot be submitted by another team; if you try to do so, you will receive an error. Locked sites are usually shown 
+                as such in your Sites page, but it's possible they won't be if the list hasn't fully synchronised.
+            </p>
+
+        </div>
+    </mat-expansion-panel>
+
+
+
+
+    <!-- Expansion 4 - Site/Artefact Considerations -->
+    <mat-expansion-panel class="rule-expansion">
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                <h2 class="rule-expansion-title">Site/Artefact Considerations</h2>
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+        
+        <div class="rule-expansion-text">
+            <h4>Locating Artefacts</h4>
+            <p>
+                Generally, most artefacts at sites should be easy to spot, as they’ll will be positioned in prominent places. However, 
+                sometimes they aren’t obvious, especially in the case of architectural features, so you should look up and all around, 
+                and you may sometimes need to rely on research to locate them.
+            </p>
+            <h4>Map Markers</h4>
+            <p>
+                Map locations are subject to many variables and should be considered indicative only, meaning an artefact may be only approximately 
+                within the location specified. However, it should always be within 25 metres or so of the point on the map.
+            </p>
+            <h4>Multiple Sites in Close Proximity</h4>
+            <p>
+                Often there are two or more sites in very close proximity and it’s impossible to tell reliably from the map which is which. There 
+                are two ways to differentiate such sites. First, all sites include a clue in the app when viewing the site details or submitting a 
+                site. Second, you can use the list of site detail options, e.g. artist, year, and close-up image as a clue in identifying the correct site.
+            </p>
+            <h4>Artefacts Not Included in the Art Hunt</h4>
+            <p>
+                Although the Art Hunt includes most public art works and other artefacts around the city, not everything is included. Therefore, 
+                be careful when submitting an item if you haven’t clearly associated it with a map point, site clue, or other details, as you will 
+                lose points for incorrect submissions and lose the opportunity to select the correct one in its place.
+            </p>
+            <h4>Difficult to Access Sites</h4>
+            <p>
+                Although in general your team’s site photo should feature an artefact as close as possible, usually within several metres, some sites 
+                are difficult to access. For example, they may be at a height or next to a road. In these cases, take the photo from as close as 
+                is completely safe and legal. At no time should you put anyone in danger by entering area not open to pedestrians, climbing, etc.
+            </p>
+            <h4>Missing Artefacts Sites</h4>
+            <p>
+                Sometimes artefacts remain in the app although they have been removed, temporarily covered or closed, or are otherwise inaccessible, 
+                e.g. due to construction work. There are also several indoor sites that may be locked outside normal business hours.
+                <br><br>
+                While this should only apply to a very small number of sites, it means there are some you won’t be able to find. If you can’t find a 
+                site, don’t waste too much time on it, and don’t deviate too far from the map marker.
+                <br><br>
+                Additionally, it is absolutely forbidden to risk anyone’s safety or property, or to break laws and regulations during the Art Hunt. 
+                For that reason, if a site cannot be easily and safely accessed, you should leave it. Any team deemed to have risked safety or property will be disqualified.
+            </p>
+        </div>
+    </mat-expansion-panel>
+
+
+
+
+    <!-- Expansion 5 - Virtual VS Field Members -->
+    <mat-expansion-panel class="rule-expansion">
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                <h2 class="rule-expansion-title">Virtual VS Field Members</h2>
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+        
+        <div class="rule-expansion-text">
+            <p>
+                Most players of this game will be out in the field answering questions from each site, some players won’t be able to join 
+                in and will have to join as a virtual member. As a way to make the virtual member more engaged and important in the 
+                game, they will get certain perks and advantages that no other team member has in order to help with whatever strategy 
+                the team has implemented. These perks include:
+            </p>
+            <ul>
+                <li>Location of other teams.</li>
+                <li>Ability to see how effective the team is following their strategy.</li>
+            </ul>
+        </div>
+    </mat-expansion-panel>
+
+
+
+
+    <!-- Expansion 6 - Rules -->
+    <mat-expansion-panel class="rule-expansion">
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                <h2 class="rule-expansion-title">Rules</h2>
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+        
+        <div class="rule-expansion-text">
+            <p>
+                The following rules apply to the Art Hunt:
+            </p>
+            <ul>
+                <li>No use of any private motor vehicles, including your own car, motorcycle, taxis or Uber.</li>
+                <li>No use bicycles, scooters, or other wheeled devices, electric or otherwise. Necessary mobility assistance devices are excepted.</li>
+                <li>You may use public transport, including buses and ferries.</li>
+                <li>You can only receive points for a site once, and only on your first submission.</li>
+                <li>To get full points at any given site your entire team must be included in the team photo that prominently features the site.</li>
+                <li>You must not interfere with or impede the activities of any other teams.</li>
+                <li>Collaboration between teams is allowed.</li>
+                <li>You must not break any laws or applicable regulations.</li>
+                <li>Site details, such as themes and close-up images, have been set up in advance and no variation or dispute is possible.</li>
+                <li>Each team must provide a current and contactable mobile phone number to the administrator; this is usually done during team registration in the app.</li>
+                <li>All teams must sign out on their departure from the home base at the start, and sign back in on their return.</li>
+                <li>Start and finish times are determined and measured by the game administrator, so make sure you are working from the correct reference time.</li>
+            </ul>
+            <h4>Penalties</h4>
+            <p>
+                Several penalties apply.
+            </p>
+            <ul>
+                <li>Your team will lose points for incorrect answers. It is possible to earn negative points.</li>
+                <li>Site points are reduced if team members are absent from photos.</li>
+                <li>Your team will be disqualified if it departs prior to the official start of the event.</li>
+                <li>Your team will be disqualified if it does not register back at the home base by the scheduled completion time. Even 1 minute late will result in disqualification.</li>
+                <li>Your team will be disqualified if it unreasonably risks anyone’s safety or property, or engages is illegal or unethical behaviour</li>
+            </ul>
+        </div>
+    </mat-expansion-panel>
+    
+    
+
+    <br><br>
+
+</div>

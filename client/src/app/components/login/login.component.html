@@ -1,0 +1,32 @@
+<div class="header">
+    <h1 class="login-title">ArtHunt</h1>
+    <h2 id="event-name">{{eventName}}</h2>
+</div>
+
+<form *ngIf="!verified" [formGroup]="loginForm" class="login-form" (ngSubmit)="verify()">
+
+    <div class="form-group">
+        <label for="team-name">Team Name</label>
+        <input type="text" name="team-name" formControlName="teamName" [ngStyle]="invalid ? {'border-color': 'red'} : null" placeholder="Team name..."/>
+        <h3 class="error-text" id="name-error" *ngIf="invalid">* {{nameErrorText}}</h3>
+    </div>
+
+    <div class="form-group">
+        <label for="password">PIN</label>
+        <input type="password" name="password" formControlName="pin" [ngStyle]="invalid ? {'border-color': 'red'} : null" placeholder="Four digit pin..."/>
+        <h3 class="error-text" id="password-error" *ngIf="invalid">* {{pinErrorText}}</h3>
+    </div>
+
+    <div class="buttons">
+        <button type="submit">LOGIN</button>
+    </div>
+    <div class="buttons">
+        <button type="button" (click)="gotoRegister()">CREATE TEAM</button>
+    </div>
+</form>
+
+<app-select-member *ngIf="verified" [teamID]="teamID" [teamName]="teamName" [members]="members"></app-select-member>
+
+<footer>
+    <p class="footer__text">COPYRIGHT @ 2021</p>
+</footer>

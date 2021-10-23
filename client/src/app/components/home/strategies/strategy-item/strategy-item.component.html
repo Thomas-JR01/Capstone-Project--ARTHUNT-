@@ -1,0 +1,24 @@
+<!--X Strategy-->
+<div class="strategy-item">
+    <!--Strategy Title-->
+    <label class="strategy-title">{{StrategyInfo?.name}}</label>
+    <!--Strategy Main Content-->
+    <div class="strategy-item-content">
+        <p class="strategy-description">{{StrategyInfo?.description}}</p>
+        <table>
+            <tr>
+                <th class="table-left-content"><!--Left Content-->
+                    <!--Placement/Rank-->
+                    <label class="strategy-team-rank">{{Team_Rank_Display}}<br>{{Team_Points_Display}}</label>
+                    <!-- {{Team_Name}}<br>is rank #{{Team_Strategy_Rank}} -->
+
+                </th>
+
+                <th class="table-right-content">
+                    <!--Interaction Button-->
+                    <button class="strategy-interaction-button" (click)="interactOnClick()">{{Button_Text}}</button>
+                </th>
+            </tr>
+        </table>
+    </div>
+</div>

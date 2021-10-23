@@ -1,0 +1,10 @@
+[{
+	"_id": {
+		"$oid": "42307e2dcba1224b7c3b25df"
+	},
+	"type": "test",
+	"data": "This is just a test",
+	"timestamp": {
+        "$date": "2021-09-24T23:08:23.704Z"
+    }
+}]

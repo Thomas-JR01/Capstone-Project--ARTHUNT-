@@ -1,0 +1,9 @@
+[{
+    "event": 1,
+    "sender_id": 1,
+    "recipient_id": 0,
+    "message_text": "I am 1 and I am sending a message to the all chat!",
+    "timestamp": {
+        "$date": "2021-05-15T23:08:23.704Z"
+    }
+}]

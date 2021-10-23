@@ -1,0 +1,25 @@
+h2 {
+	margin: 0;
+	font-size: 1em;
+}
+
+.messages {
+	display: flex;
+    flex-direction: column-reverse;
+	height: 70vh;
+	margin-top: 7em;
+	overflow: overlay;
+}
+
+.message {
+	color: black;
+	background-color: lightgray;
+	border-radius: 1em;
+	padding: 1em;
+	margin: 0.25em 0;
+	width:60vw;
+}
+
+.time {
+	text-align: right;
+}

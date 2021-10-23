@@ -1,0 +1,28 @@
+<div class="team-visits" *ngIf="!visitSelected">
+    <div id="title">
+        <h2 id="title-text">Site History</h2>
+    </div>
+
+    <div class="visit-rows" *ngFor="let visit of visits">
+        <div class="time">
+            <h2 class="time-text">
+                {{visit.timestamp.substring(0, 5)}}
+            </h2>
+        </div>
+        <button class="visit-btns" type="button" (click)="displayVisit(visit)">
+          <span>
+            Site {{visit.site_num}}
+          </span>
+        </button>
+        <div class="status" [ngStyle]="visit.marked ? {'background-color': '#93c47dff'} : {'background-color': '#edab4e'}">
+            <h2 class="status-text">
+                <mat-icon *ngIf="visit.marked">done</mat-icon>
+                <mat-icon *ngIf="!visit.marked">timer</mat-icon>
+            </h2>
+        </div>
+    </div>
+</div>
+
+<div *ngIf="visitSelected">
+    <app-site-visit [visit]="visit" (returnToVisits)="returned()"></app-site-visit>
+</div>

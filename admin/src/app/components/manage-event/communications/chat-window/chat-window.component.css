@@ -1,0 +1,38 @@
+.chat-log {
+    box-sizing: border-box;
+    margin: 0 0 2em 0;
+    height: 100%;
+}
+
+.message-section-wrapper {
+    height: 16em;
+    overflow: auto;
+}
+
+.messages-section {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.message {
+    margin: 1em 0;
+}
+
+.sender {
+    text-align: left;
+    color: #b8b8b8;
+    padding: 0.25em 1em;
+}
+
+.message-text {
+    text-align: left;
+    background-color: #d7d7d7;
+    border-radius: 1em;
+    width: 20em;
+    padding: 1em;
+}
+
+.time-sent {
+    text-align: right;
+    color: #b8b8b8;
+}

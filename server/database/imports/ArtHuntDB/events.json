@@ -1,0 +1,26 @@
+[{
+  "_id": 1,
+  "name": "NewEvent01",
+  "city": "Brisbane",
+  "base_lat": -27.4705,
+  "base_long": 153.026,
+  "coordinator": {
+    "name": "JohnDoe",
+    "contact": "0401010101"
+  },
+  "default_settings": {
+    "site_points": {
+		"total_amt": 100,
+		"site_pct": 25,
+		"title_pct": 5,
+		"theme_pct": 40,
+		"closeup_pct": 20,
+		"artist_pct": 5,
+		"year_pct": 5
+	},
+	"adjustment_factor": 1,
+	"growth_rate": 1.1
+  },
+  "state": "paused",
+  "game_timer": 10800
+}]

@@ -1,0 +1,28 @@
+.title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.header {
+    display: inline-block;
+    left: 0;
+    top: 5.5em;
+    z-index:10000;
+    position: fixed;
+    text-align: center;
+    background-color: #3A3A3A;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 100%;
+}
+
+div {
+    text-align: center;
+}
+
+.body {
+    margin-top: 10em;
+    padding-bottom: 4em;
+}

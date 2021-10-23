@@ -1,0 +1,36 @@
+{
+	"_id": {
+		"$oid": "5a4cc9ed0a2b2a5b498145be"
+	},
+	"city": "Brisbane",
+	"notes": "",
+	"__v": 0,
+	"homePosition": "QUT campus, B Block",
+	"homeLat": "-27.4761316",
+	"homeLong": "153.0284679",
+	"siteCounter": 130
+}
+{
+	"_id": {
+		"$oid": "5a4cca070a2b2a5b498145bf"
+	},
+	"city": "Canberra",
+	"notes": "",
+	"__v": 0,
+	"homePosition": "Glebe Park",
+	"homeLat": "-35.280723",
+	"homeLong": "149.135205",
+	"siteCounter": 44
+}
+{
+	"_id": {
+		"$oid": "5ea1845cdec2336e182d18cf"
+	},
+	"city": "Adelaide",
+	"notes": "",
+	"__v": 0,
+	"homePosition": "University of Adelaide",
+	"homeLat": "-34.92088005891116",
+	"homeLong": "138.6060653624268",
+	"siteCounter": 0
+}

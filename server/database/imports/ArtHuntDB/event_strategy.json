@@ -1,0 +1,10 @@
+[{
+    "_id": {
+        "$oid": "61174829f407c93f1c92c4d3"
+    },
+    "strategy_id": {
+		"$oid": "61174704f407c93f1c92c4d2"
+	},
+    "event": 1,
+    "team_gains": []
+}]

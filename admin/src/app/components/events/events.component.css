@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+    margin: 82px auto 32px;
+    padding: 0 16px;
+    max-width: 960px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.events-title {
+    font-family: Montserrat;
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+.title {
+    margin: 0%;
+    font-size: min(18vw, 72px);
+    color: #588EFF;
+    display: inline-block;
+}
+
+.title-subtitle {
+    padding-left: .3em;
+    margin: 0%;
+    font-size: min(18vw, 72px);
+    color: #686868;
+    display: inline-block;
+}
+
+.event-name--label, .event-create--label {
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.event-city--label {
+    cursor: pointer;
+}
+
+.events-form {
+    text-align: center;
+}
+
+.events-interaction-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    row-gap: 1em;
+    padding: 10px;
+    width: 1400px;
+}
+
+.create_event-button {
+    padding: .25em .25em;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    border-width: 0.1rem;
+    border-color: #686868;
+    height: 6.2em;
+    width: 13.7em;
+}
+
+.create_event-button{
+    background: #fff;
+    border: dotted 4px #686868;
+}
+
+.open_event-button {
+    background-color: #e6e6e6;
+}
+
+.logout-button {
+    margin-left: 94%;
+    margin-bottom: 0;
+    margin-top: .5em;
+    text-align: right;
+    padding: .5em;
+    border: transparent;
+    background-color: lightcoral;
+    font-weight: bold;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+

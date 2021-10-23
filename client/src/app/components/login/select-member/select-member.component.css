@@ -1,0 +1,45 @@
+.title {
+    font-family: Montserrat;
+    text-align: center;
+}
+
+#greeting {
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 100%;
+    color: #F5F5F5;
+    padding: 5%;
+}
+
+#instruction {
+    font-size:1.3em;
+    color: #F5F5F5;
+    padding: 5%;
+}
+
+.member-names {
+    text-align: center;
+}
+
+button {
+    /* styling */
+    background: #fff;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+    border-width: 0;
+    font-size: 0.9em;
+    font-weight: bold;
+
+    /* formatting */
+    text-align: center;
+    width: 50%;
+    margin-bottom: 1em;
+    padding: .5em .5em;
+}
+
+#virtual-icon {
+    font-size: 1.5em;
+    vertical-align: middle;
+    height: 1em;
+}

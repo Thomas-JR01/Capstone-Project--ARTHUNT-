@@ -1,0 +1,7 @@
+<div class="messages">
+	<div class="message" [ngStyle]="msg.sender_id === getTeamID() ? {'background-color': '#75a2ff', 'margin-left': 'auto'} : {'background-color': 'lightgray'}" *ngFor="let msg of messages">
+		<h2>{{msg.sender}}</h2>
+		<span style="width:100%; word-wrap:break-word; display:inline-block;">{{msg.message_text}}</span>
+		<div class="time">{{msg.timestamp}}</div>
+	</div>
+</div>

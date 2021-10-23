@@ -1,0 +1,23 @@
+.teams {
+    display: grid;
+    grid-gap: 1em;
+}
+
+.number-text {
+    color: #b8b8b8;
+}
+
+.site-rows {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    font-size: 1em;
+}
+
+.site-expansion {
+    font-size:1em;
+    background-color: #d7d7d7;
+    border-radius: 0.5em;
+    padding:0;
+    width:min(80%, 1500px);
+    margin-bottom: 1em;
+}

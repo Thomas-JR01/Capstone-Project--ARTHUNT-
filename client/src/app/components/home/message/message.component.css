@@ -1,0 +1,54 @@
+#title {
+    font-size: 1.5em;
+}
+
+.select-team {
+    text-align: center;
+    margin-top: 7em;
+	width: 100%
+}
+
+.team-btns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.5em;
+    margin-top: 1em;
+}
+
+.team-btn {
+    padding: 1em;
+    color: white;
+    background-color: #588eff;
+    border-radius: 1em;
+    border-width: 0;
+}
+
+.text {
+    text-align: center;
+    margin-top: 7em;
+    margin: 1em 0 0.5em 0;
+}
+
+.message {
+    background-color: #686868;
+    color: white;
+    border-radius: 2em;
+    height: 3em;
+    padding-left: 1em;
+    border-width: 0;
+}
+
+.message:focus {
+    background-color: #6d6d6d;
+    outline: none;
+}
+
+.send-btn {
+    background-color: #588eff;
+    color: white;
+    padding: 1em;
+    margin-left: 1em;
+    width: 5em;
+    border-radius: 2em;
+    border-width: 0;
+}

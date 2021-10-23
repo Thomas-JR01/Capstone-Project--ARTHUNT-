@@ -1,0 +1,39 @@
+#mapid {
+    height: min(47vh, 750px);
+    border-radius: 2em; 
+}
+
+@media (min-width: 2560px) {
+    #mapid {height: min(59vh, 750px);}
+}
+
+.map-btn {
+    padding: 1em;
+    pointer-events: auto;
+    margin: 0.5em;
+    color: #5f5f5f;
+    background-color: #dfdfdf;
+    border-radius: 1em;
+    border-width: 0em;
+}
+
+.map-btn:active {
+    color: #585858;
+    background-color: #c4c4c4;
+    transition: 0.2s;
+}
+
+.leaflet-bottom.leaflet-left {
+    background-color: #6d6d6d;
+    border-color: black;
+    border-radius: 1em;
+    margin: 1em 1em;
+    padding: 0.5em;
+}
+
+.leaflet-top.leaflet-right {
+    background-color: #6d6d6d;
+    border-radius: 1em;
+    margin: 1em 1em;
+    padding: 0.5em;
+}

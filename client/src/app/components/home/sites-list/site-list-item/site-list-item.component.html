@@ -1,0 +1,17 @@
+<button class="site-list-item" type="button" (click)="gotoSiteAttempt()">
+    <table>
+        <tr>
+            <th>
+                <label class="site-no-label">{{ site?.site_number }}</label>
+            </th>
+            <th>
+                <label class="site-points-label">{{ site?.total_points }}</label>
+            </th>
+            <th>
+                <label class="site-growth-label" [ngStyle]="GrowthLabelColor">{{ site?.growth_factor }}%</label>
+            </th>
+        </tr>
+    </table>
+</button>
+
+

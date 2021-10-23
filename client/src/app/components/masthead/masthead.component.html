@@ -1,0 +1,18 @@
+<div class="main">
+    <mat-toolbar color="primary">
+        <mat-toolbar-row>
+            <button type='button' id="notifications-btn" (click)="gotoNotifications()">
+                <mat-icon id="notifications-icon">notifications</mat-icon>
+            </button>
+            <div class="title-block">
+                <span id="app-title">ArtHunt</span>
+                <span id="event-title">{{eventName}}</span>
+            </div>
+            <button id="home-btn" type="button" (click)="home()">
+                <mat-icon id="home-icon">home</mat-icon>
+            </button>
+        </mat-toolbar-row>
+    </mat-toolbar>
+    <hr id="divider">
+</div>
+

@@ -1,0 +1,45 @@
+/* global styling */
+html {
+	font-family: 'Montserrat';
+    background-color: #F1F1F1;
+    color: #686868
+}
+
+.mat-progress-spinner circle, .mat-spinner circle {
+    stroke: #686868;
+}
+
+.mat-expansion-indicator::after {
+    color: #686868;
+}
+.mat-content {
+    justify-content: space-between;
+}
+
+.mat-content > mat-panel-title, .mat-content > mat-panel-description {
+  flex: 0 0 auto;
+}
+
+.leaflet-tooltip {
+    background-color: rgb(0,0,0,0) !important;
+    border-width: 0 !important;
+    color:black !important;
+    box-shadow: none !important;
+    font-weight: bold !important;
+    font-size:1em !important;
+}
+
+::-webkit-scrollbar {
+    width: 15px;               /* width of the entire scrollbar */
+    height: 15px;
+}
+::-webkit-scrollbar-track {
+    background: rgb(231, 231, 231);        /* color of the tracking area */
+    border-radius: 1em;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(206, 206, 206);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid rgb(231, 231, 231);  /* creates padding around scroll thumb */
+}

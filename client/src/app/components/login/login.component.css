@@ -1,0 +1,117 @@
+/*** Title ***/
+.header {
+    text-align: center;
+}
+
+.login-title {
+    /* styling */
+    color: #588EFF;
+    font-size: min(20vw, 96px);
+
+    /* formatting */
+    text-align: center;
+    padding-top: 30%;
+}
+
+#event-name {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.login-form {
+    text-align: center;
+}
+ 
+/*** Form ***/
+label {
+    /* styling */
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+
+    /* formatting */
+    display: grid;
+    margin: 0;
+    text-align: left;
+}
+
+mat-label {
+    color: white;
+    font-size: 1.5em;
+}
+
+input {
+    /* styling */
+    background-color: #686868;
+    border-color: #686868;
+    border-style: solid;
+    color: white;
+    font-size: 1em;
+
+    /* formatting */
+    box-sizing: border-box;
+    padding: .3em;
+    padding-left: 5%;
+    border-radius: 0.5em;
+    height: 2.5em;
+    width: 100%;
+}
+
+
+input:focus {
+    caret-color: white;
+    outline: none;
+    outline-width: 0;
+    background-color: #787878;
+    border-color: #787878;
+}
+
+input::placeholder {
+    color: #919191;
+}
+
+.error-text {
+    font-size: 0.75em;
+    height: 0;
+    margin: 0;
+    color: red;
+    text-align: left;
+    margin-bottom: 2em;
+}
+
+button {
+    /* styling */
+    background: #fff;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+    border-width: 0;
+    font-size: 0.9em;
+    font-weight: bold;
+
+    /* formatting */
+    text-align: center;
+    width: 10em;
+    margin-top: 1em;
+    padding: .5em .5em;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.form-group {
+    margin: 1.5em 20% 2em 20%;
+    text-align: center;
+    align-content: center;
+}
+
+
+/* Footer */
+footer {
+    font-family: Montserrat;
+    margin-top: 8em;
+    font-size: .8rem;
+    text-align: center;
+    color: #fff;
+}

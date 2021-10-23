@@ -1,0 +1,29 @@
+.site-list-item {
+    background-color: #686868;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: .6em;
+    padding-bottom: .5em;
+    margin-top: 4%;
+    border-radius: .5em;
+    color: white;
+    cursor: pointer;
+    border: hidden;
+}
+
+table {
+    text-align: center;
+    display: inline-block;
+}
+
+th {
+    width:auto;
+    text-align: center;
+    width:300px;
+}
+
+label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}

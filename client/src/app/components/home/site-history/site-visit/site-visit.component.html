@@ -1,0 +1,96 @@
+<div class="site-info">
+    <h2 id="site-num">Site {{visit.site_num}} Visit Summary</h2>
+</div>
+
+<div class="result">
+    <div *ngIf="visit.marked">
+        Your attempt was 
+        <span [ngStyle]="rejected ? {'color': '#e69138ff'} : {'color': '#93c47dff'}">
+            {{rejected ? "rejected" : "accepted"}}
+        </span>
+    </div>
+    <div *ngIf="!visit.marked">
+        Your attempt is still being reviewed
+    </div>
+    <div>
+        Total: <span [ngStyle]="visitPoints > 0 ? {'color': '#93c47dff'} : {'color': '#e69138ff'}">{{visitPoints}}</span>
+    </div>
+</div>
+
+<div class="answers">
+    <div class="question">
+        <div class="topic">
+            Artist
+        </div>
+        <div class="answer">
+            {{visit.answers_given.artist}}
+        </div>
+        <div class="points" [ngStyle]="visit.points_earned.artist_amt > 0 ? {'color': '#93c47dff'} : {'color': '#e69138ff'}">
+            {{visit.points_earned.artist_amt}}
+        </div>
+    </div>
+    
+    <div class="question">
+        <div class="topic">
+            Closeup
+        </div>
+        <div class="answer">
+            <div>
+                <img class="img" width=200px src='data:image/png;base64,{{closeupImg}}'/>
+            </div>
+        </div>
+        <div class="points" [ngStyle]="visit.points_earned.closeup_amt > 0 ? {'color': '#93c47dff'} : {'color': '#e69138ff'}">
+            {{visit.points_earned.closeup_amt}}
+        </div>
+    </div>
+    
+    <div class="question">
+        <div class="topic">
+            Theme
+        </div>
+        <div class="answer">
+            {{visit.answers_given.theme}}
+        </div>
+        <div class="points" [ngStyle]="visit.points_earned.theme_amt > 0 ? {'color': '#93c47dff'} : {'color': '#e69138ff'}">
+            {{visit.points_earned.theme_amt}}
+        </div>
+    </div>
+    
+    <div class="question">
+        <div class="topic">
+            Title
+        </div>
+        <div class="answer">
+            {{visit.answers_given.title}}
+        </div>
+        <div class="points" [ngStyle]="visit.points_earned.title_amt > 0 ? {'color': '#93c47dff'} : {'color': '#e69138ff'}">
+            {{visit.points_earned.title_amt}}
+        </div>
+    </div>
+    
+    <div class="question">
+        <div class="topic">
+            Year
+        </div>
+        <div class="answer">
+            {{visit.answers_given.year}}
+        </div>
+        <div class="points" [ngStyle]="visit.points_earned.year_amt > 0 ? {'color': '#93c47dff'} : {'color': '#e69138ff'}">
+            {{visit.points_earned.year_amt}}
+        </div>
+    </div>
+    
+    <div class="question">
+        <div class="topic">
+            Team Photo
+        </div>
+        <div class="answer">
+            <div>
+                <img class="img" width=200px src='data:image/png;base64,{{teamImg}}'/>
+            </div>
+        </div>
+        <div class="points" [ngStyle]="visit.points_earned.site_amt > 0 ? {'color': '#93c47dff'} : {'color': '#e69138ff'}">
+            {{visit.points_earned.site_amt}}
+        </div>
+    </div>
+</div>

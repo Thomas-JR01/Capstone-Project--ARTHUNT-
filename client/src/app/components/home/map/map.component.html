@@ -1,0 +1,44 @@
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+</head>
+<div class="container">
+    <div id="mapid">
+        <div class="leaflet-bottom leaflet-left">
+            <button id="map-num-btn" class="map-btn" type="button" (click)="markSiteNum()">Site no.</button>
+            <button id="map-points-btn" class="map-btn" type="button" (click)="markSitePoints()">Points</button>
+            <button id="map-growth-btn" class="map-btn" type="button" (click)="markSiteGrowth()">Growth</button>
+        </div>  
+        <div class="leaflet-top leaflet-right">
+            <button id="map-reset-btn" class="map-btn" type="button" (click)="resetMapView()">Reset</button>
+        </div>  
+    </div>
+</div>
+<div id="info">
+    <div id="site-info">
+        <div id="site-stats" *ngIf="siteSelected">
+            <span><b>Site</b> {{siteNum}}</span>
+            <span><b>Points</b> {{points}}</span>
+            <span><b>Growth</b> {{growth}}%</span>
+            <span><b>Status</b> {{locked ? "locked" : "open"}}</span>
+        </div>
+        <div id="hint" *ngIf="siteSelected">
+            <b>Hint:</b> {{hint}}
+        </div>
+        <div id="no-members-text" *ngIf="!siteSelected">
+            <div id="center">
+                select a site to view...
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div id="attempt-div" *ngIf="siteSelected">
+    <button id="attempt-btn" type="button" (click)="gotoSiteAttempt()">Attempt</button>
+</div>

@@ -1,0 +1,102 @@
+/* Dashboard */
+.dashboard-div {
+    background-color: #e6e6e6;
+    border-radius: 2rem;
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 1.5em;
+    width: 99%;
+}
+
+@media (min-width: 2560px) {
+    .dashboard-div{ width: 145%;}
+}
+
+.dashboard-title-main {
+    color: #686868;
+    padding-top: 3em;
+    padding-right: 3em;
+}
+
+.dashboard-title {
+    color: #686868;
+    padding-top: 3em;
+}
+
+.dashboard-item-status, .dashboard-item-eventinfo, .dashboard-item-timers {
+    background-color: #d7d7d7;
+    border-radius: 2rem;
+    width: 380px;
+    height: 200px;
+    border: solid;
+    border-width: 1px;
+    border-color: #686868;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    margin-right: .5em;
+    margin-left: .5em;
+}
+
+
+/* Dashboard - Status */
+.status-button-start, .status-button-stop, .status-button-reset, .slideshow-button, .qr-button {
+    text-transform: uppercase;
+    border: none;
+    padding: .6em;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 8em;
+    margin-top: 1em;
+    margin-right: 1.5em;
+    color: #686868;
+}
+.status-button-start { background-color: #93c47dff; }
+.status-button-stop { background-color: lightcoral; }
+.status-button-reset { background-color: darkorange; }
+.slideshow-button, .qr-button { background-color: darkgrey; margin-top: .5em; }
+.slideshow-button {
+    margin-left: 1.5em;
+}
+
+.event-status-label {
+    text-transform: uppercase;
+    color: #686868;
+    font-size: 1.5rem;
+    margin-left: 1em;
+}
+
+.event-elapsedtime-label, .event-registration-label {
+    color: #686868;
+    font-size: 1rem;
+
+}
+
+/* Dashboard - Event Info */
+.event-info-labels-group {
+    padding-top: 0.5em;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #686868;
+}
+
+/* Dashboard - Timers */
+.time-left-timer-div, .site-recovery-timer-div, .round-timer-div {
+    padding: 0.5em 0.5em;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    color: #686868;
+}
+
+.event-site-recovery-label, .event-time-left-label, .event-round-label {
+    font-size: 1.25em;
+}
+
+.round-recovery-timers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

@@ -1,0 +1,35 @@
+.leaderboard-headers {
+    display: inline-block;
+    top:0;
+    left: 0;
+    z-index:10000;
+    position: fixed;
+    text-align: center;
+    margin-top: 6em;
+
+}
+
+.leaderboard-form {
+    margin-top: 11em;
+}
+
+table {
+    text-align: center;
+    display: inline-block;
+    padding-top: 5%;
+    padding-bottom: .5em;
+    background-color: #3A3A3A;;
+}
+
+th {
+    width:auto;
+    text-align: center;
+    width:500px;
+}
+
+label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}

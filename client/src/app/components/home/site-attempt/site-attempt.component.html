@@ -1,0 +1,121 @@
+<div class="main">
+
+    <div class="header">
+        <h1 class="title">Site Attempt</h1>
+    </div>
+
+    <div class="site-info">
+        <table>
+            <tr>
+                <th>
+                    <label class="site-info-label">Site {{this.siteNum}}</label>
+                </th>
+                <th>
+                    <label class="site-info-label">Points: {{this.total_points}}</label>
+                </th>
+                <th>
+                    <label class="site-info-label">Growth: {{this.growth_factor}}%</label>
+                </th>
+            </tr>
+        </table>
+    </div>
+
+    <div class="site-hint">
+        <h2 class="site-hint-header">Hint</h2>
+        <p class="site-hint-text">
+            {{this.siteHint}}
+        </p>
+    </div>
+
+
+
+
+    <form [formGroup]="SiteAttemptForm" class="submitSiteAttempt-form" (ngSubmit)="submitSiteAttempt()">
+        <div class="site-questions">
+            <h2 class="site-questions-header">Questions</h2>
+
+            <div class="site-question-title site-question">
+                <h2 class="site-questions-header">Title</h2>
+                
+                <label class="q-info-label">Artwork Title:</label>
+                <select class="q-title" formControlName="SiteAttempt_Title">
+                    <option value="NA">No Answer</option>
+                    <option *ngFor="let title of this.siteQuestionChoices?.title" [value]="title">{{title}}</option>
+                </select>
+                    
+            </div>
+
+            <div class="site-question-year site-question">
+                <h2 class="site-questions-header">Year</h2>
+                
+                <label class="q-info-label">Artwork Date (Year):</label>
+                <select class="q-year" formControlName="SiteAttempt_Year">
+                    <option value="NA">No Answer</option>
+                    <option *ngFor="let year of this.siteQuestionChoices?.year" [value]="year">{{year}}</option>
+                </select>
+
+            </div>
+
+            <div class="site-question-artist site-question">
+                <h2 class="site-questions-header">Artist</h2>
+                
+                <label class="q-info-label">Artwork Artist:</label>
+                <select class="q-artist" formControlName="SiteAttempt_Artist">
+                    <option value="NA">No Answer</option>
+                    <option *ngFor="let artist of this.siteQuestionChoices?.artist" [value]="artist">{{artist}}</option>
+                </select>
+
+            </div>
+
+            <div class="site-question-theme site-question">
+                <h2 class="site-questions-header">Theme</h2>
+                
+                <label class="q-info-label">Artwork Theme:</label>
+                <select class="q-theme" formControlName="SiteAttempt_Theme">
+                    <option value="NA">No Answer</option>
+                    <option *ngFor="let theme of this.siteQuestionChoices?.theme" [value]="theme">{{theme}}</option>
+                </select>
+
+            </div>
+
+            <div class="site-question-closeupimage site-question">
+                <h2 class="site-questions-header">Close Up Image</h2>
+
+                <mat-radio-group class="example-radio-group" formControlName="SiteAttempt_CloseUpImage">
+                    <mat-radio-button class="example-radio-button" *ngFor="let img of this.imgvalue" [value]="img.img_path">
+                        <img width=100px src='data:image/png;base64,{{img.img}}'/>
+                    </mat-radio-button>
+                    
+
+                </mat-radio-group>
+
+            </div>
+
+            <div class="site-question-teamphoto site-question">
+                <h2 class="site-questions-header">Team Photo</h2>
+                     
+                <h3 class="q-teamphoto-h3">Take/Select Picture: </h3>
+                <div class="q-teamphoto">
+                    <input type="hidden" name="MAX_FILE_SIZE" value="100000" />
+                    <input class="choosefileinput" style="width: 16em;" name="uploadedfile" type="file" formControlName="SiteAttempt_TeamPhoto" (change)="onChange($event)"/>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+        <div class="submit-div">
+            <button class="submit-button" type="submit">Submit Site Attempt</button>
+        </div>
+
+    </form>
+
+
+
+
+
+
+</div>
+

@@ -1,0 +1,2290 @@
+{
+	"_id": {
+		"$oid": "60a054677ab71c03b8de6f0b"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Ping",
+	"senderId": "hwWFVdjoobS8",
+	"sender": "60a0517c7ab71c03b8de6ec6",
+	"sender_team_name": "7 Deadly Sins",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-15T23:08:23.704Z"
+	},
+	"destination": "60a0517c7ab71c03b8de6ec6",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-15T23:16:20.505Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a0552a7ab71c03b8de6f0c"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Testing",
+	"sender": "60a0534d7ab71c03b8de6efd",
+	"sender_team_name": "Legs 11",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-15T23:11:38.007Z"
+	},
+	"destination": "60a0534d7ab71c03b8de6efd",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-15T23:18:20.203Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a056027ab71c03b8de6f0d"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck 👍",
+	"senderId": "gJBwn07VecMH",
+	"sender": "60a051bf7ab71c03b8de6ecc",
+	"sender_team_name": "Blue Ocean",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-15T23:15:14.180Z"
+	},
+	"destination": "60a0510c7ab71c03b8de6e9c",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a056027ab71c03b8de6f0e"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck 👍",
+	"senderId": "gJBwn07VecMH",
+	"sender": "60a051bf7ab71c03b8de6ecc",
+	"sender_team_name": "Blue Ocean",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-15T23:15:14.289Z"
+	},
+	"destination": "60a051147ab71c03b8de6ea2",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-16T01:10:50.508Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a056027ab71c03b8de6f0f"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck 👍",
+	"senderId": "gJBwn07VecMH",
+	"sender": "60a051bf7ab71c03b8de6ecc",
+	"sender_team_name": "Blue Ocean",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-15T23:15:14.367Z"
+	},
+	"destination": "60a051337ab71c03b8de6ea8",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a056027ab71c03b8de6f10"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck 👍",
+	"senderId": "gJBwn07VecMH",
+	"sender": "60a051bf7ab71c03b8de6ecc",
+	"sender_team_name": "Blue Ocean",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-15T23:15:14.430Z"
+	},
+	"destination": "60a051347ab71c03b8de6eae",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a056027ab71c03b8de6f11"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck 👍",
+	"senderId": "gJBwn07VecMH",
+	"sender": "60a051bf7ab71c03b8de6ecc",
+	"sender_team_name": "Blue Ocean",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-15T23:15:14.539Z"
+	},
+	"destination": "60a051657ab71c03b8de6eb4",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a056027ab71c03b8de6f12"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck 👍",
+	"senderId": "gJBwn07VecMH",
+	"sender": "60a051bf7ab71c03b8de6ecc",
+	"sender_team_name": "Blue Ocean",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-15T23:15:14.602Z"
+	},
+	"destination": "60a051687ab71c03b8de6eba",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a056027ab71c03b8de6f13"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck 👍",
+	"senderId": "gJBwn07VecMH",
+	"sender": "60a051bf7ab71c03b8de6ecc",
+	"sender_team_name": "Blue Ocean",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-15T23:15:14.680Z"
+	},
+	"destination": "60a051737ab71c03b8de6ec0",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-15T23:20:20.240Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a056027ab71c03b8de6f14"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck 👍",
+	"senderId": "gJBwn07VecMH",
+	"sender": "60a051bf7ab71c03b8de6ecc",
+	"sender_team_name": "Blue Ocean",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-15T23:15:14.742Z"
+	},
+	"destination": "60a0517c7ab71c03b8de6ec6",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-15T23:15:50.685Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a056027ab71c03b8de6f15"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck 👍",
+	"senderId": "gJBwn07VecMH",
+	"sender": "60a051bf7ab71c03b8de6ecc",
+	"sender_team_name": "Blue Ocean",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-15T23:15:14.836Z"
+	},
+	"destination": "60a051bf7ab71c03b8de6ecc",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-15T23:19:32.511Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a056027ab71c03b8de6f16"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck 👍",
+	"senderId": "gJBwn07VecMH",
+	"sender": "60a051bf7ab71c03b8de6ecc",
+	"sender_team_name": "Blue Ocean",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-15T23:15:14.914Z"
+	},
+	"destination": "60a051f97ab71c03b8de6ed4",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-15T23:16:19.067Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a056037ab71c03b8de6f17"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck 👍",
+	"senderId": "gJBwn07VecMH",
+	"sender": "60a051bf7ab71c03b8de6ecc",
+	"sender_team_name": "Blue Ocean",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-15T23:15:15.023Z"
+	},
+	"destination": "60a052157ab71c03b8de6edb",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a056037ab71c03b8de6f18"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck 👍",
+	"senderId": "gJBwn07VecMH",
+	"sender": "60a051bf7ab71c03b8de6ecc",
+	"sender_team_name": "Blue Ocean",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-15T23:15:15.102Z"
+	},
+	"destination": "60a0522d7ab71c03b8de6ee2",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a056037ab71c03b8de6f19"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck 👍",
+	"senderId": "gJBwn07VecMH",
+	"sender": "60a051bf7ab71c03b8de6ecc",
+	"sender_team_name": "Blue Ocean",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-15T23:15:15.164Z"
+	},
+	"destination": "60a0526a7ab71c03b8de6ef0",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-15T23:15:30.273Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a056037ab71c03b8de6f1a"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck 👍",
+	"senderId": "gJBwn07VecMH",
+	"sender": "60a051bf7ab71c03b8de6ecc",
+	"sender_team_name": "Blue Ocean",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-15T23:15:15.227Z"
+	},
+	"destination": "60a0532f7ab71c03b8de6ef7",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-16T01:03:13.971Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a056037ab71c03b8de6f1b"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck 👍",
+	"senderId": "gJBwn07VecMH",
+	"sender": "60a051bf7ab71c03b8de6ecc",
+	"sender_team_name": "Blue Ocean",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-15T23:15:15.352Z"
+	},
+	"destination": "60a0534d7ab71c03b8de6efd",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-15T23:18:41.936Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a056037ab71c03b8de6f1c"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck 👍",
+	"senderId": "gJBwn07VecMH",
+	"sender": "60a051bf7ab71c03b8de6ecc",
+	"sender_team_name": "Blue Ocean",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-15T23:15:15.414Z"
+	},
+	"destination": "60a0540c7ab71c03b8de6f05",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a056037ab71c03b8de6f1d"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck 👍",
+	"senderId": "gJBwn07VecMH",
+	"sender": "60a051bf7ab71c03b8de6ecc",
+	"sender_team_name": "Blue Ocean",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-15T23:15:15.492Z"
+	},
+	"destination": "admin",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a056167ab71c03b8de6f1e"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Best of Luck ",
+	"sender": "60a0517c7ab71c03b8de6ec6",
+	"sender_team_name": "7 Deadly Sins",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-15T23:15:34.977Z"
+	},
+	"destination": "60a0526a7ab71c03b8de6ef0",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-15T23:16:20.364Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a0562b7ab71c03b8de6f1f"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Test ",
+	"senderId": "UWhZee3SDo42",
+	"sender": "60a0517c7ab71c03b8de6ec6",
+	"sender_team_name": "7 Deadly Sins",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-15T23:15:55.339Z"
+	},
+	"destination": "60a0517c7ab71c03b8de6ec6",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-15T23:16:05.390Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a0562f7ab71c03b8de6f20"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Testing comms ",
+	"sender": "60a0517c7ab71c03b8de6ec6",
+	"sender_team_name": "7 Deadly Sins",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-15T23:15:59.597Z"
+	},
+	"destination": "60a0517c7ab71c03b8de6ec6",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-15T23:16:06.199Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a0562f7ab71c03b8de6f21"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Testing comms ",
+	"sender": "60a0517c7ab71c03b8de6ec6",
+	"sender_team_name": "7 Deadly Sins",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-15T23:15:59.675Z"
+	},
+	"destination": "60a0526a7ab71c03b8de6ef0",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-15T23:16:18.973Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a056767ab71c03b8de6f22"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Have fun!",
+	"senderId": "aComDqUuQB9O",
+	"sender": "60a051f97ab71c03b8de6ed4",
+	"sender_team_name": "Spinning DISCS",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-15T23:17:10.906Z"
+	},
+	"destination": "60a0510c7ab71c03b8de6e9c",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a056767ab71c03b8de6f23"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Have fun!",
+	"senderId": "aComDqUuQB9O",
+	"sender": "60a051f97ab71c03b8de6ed4",
+	"sender_team_name": "Spinning DISCS",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-15T23:17:10.968Z"
+	},
+	"destination": "60a051147ab71c03b8de6ea2",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-16T01:10:46.444Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a056777ab71c03b8de6f24"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Have fun!",
+	"senderId": "aComDqUuQB9O",
+	"sender": "60a051f97ab71c03b8de6ed4",
+	"sender_team_name": "Spinning DISCS",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-15T23:17:11.046Z"
+	},
+	"destination": "60a051337ab71c03b8de6ea8",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a056777ab71c03b8de6f25"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Have fun!",
+	"senderId": "aComDqUuQB9O",
+	"sender": "60a051f97ab71c03b8de6ed4",
+	"sender_team_name": "Spinning DISCS",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-15T23:17:11.109Z"
+	},
+	"destination": "60a051347ab71c03b8de6eae",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a056777ab71c03b8de6f26"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Have fun!",
+	"senderId": "aComDqUuQB9O",
+	"sender": "60a051f97ab71c03b8de6ed4",
+	"sender_team_name": "Spinning DISCS",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-15T23:17:11.218Z"
+	},
+	"destination": "60a051657ab71c03b8de6eb4",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a056777ab71c03b8de6f27"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Have fun!",
+	"senderId": "aComDqUuQB9O",
+	"sender": "60a051f97ab71c03b8de6ed4",
+	"sender_team_name": "Spinning DISCS",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-15T23:17:11.281Z"
+	},
+	"destination": "60a051687ab71c03b8de6eba",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a056777ab71c03b8de6f28"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Have fun!",
+	"senderId": "aComDqUuQB9O",
+	"sender": "60a051f97ab71c03b8de6ed4",
+	"sender_team_name": "Spinning DISCS",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-15T23:17:11.359Z"
+	},
+	"destination": "60a051737ab71c03b8de6ec0",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-15T23:20:23.671Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a056777ab71c03b8de6f29"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Have fun!",
+	"senderId": "aComDqUuQB9O",
+	"sender": "60a051f97ab71c03b8de6ed4",
+	"sender_team_name": "Spinning DISCS",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-15T23:17:11.421Z"
+	},
+	"destination": "60a0517c7ab71c03b8de6ec6",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-15T23:28:52.571Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a056777ab71c03b8de6f2a"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Have fun!",
+	"senderId": "aComDqUuQB9O",
+	"sender": "60a051f97ab71c03b8de6ed4",
+	"sender_team_name": "Spinning DISCS",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-15T23:17:11.515Z"
+	},
+	"destination": "60a051bf7ab71c03b8de6ecc",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-15T23:19:37.913Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a056777ab71c03b8de6f2b"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Have fun!",
+	"senderId": "aComDqUuQB9O",
+	"sender": "60a051f97ab71c03b8de6ed4",
+	"sender_team_name": "Spinning DISCS",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-15T23:17:11.578Z"
+	},
+	"destination": "60a051f97ab71c03b8de6ed4",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a056777ab71c03b8de6f2c"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Have fun!",
+	"senderId": "aComDqUuQB9O",
+	"sender": "60a051f97ab71c03b8de6ed4",
+	"sender_team_name": "Spinning DISCS",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-15T23:17:11.656Z"
+	},
+	"destination": "60a052157ab71c03b8de6edb",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a056777ab71c03b8de6f2d"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Have fun!",
+	"senderId": "aComDqUuQB9O",
+	"sender": "60a051f97ab71c03b8de6ed4",
+	"sender_team_name": "Spinning DISCS",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-15T23:17:11.718Z"
+	},
+	"destination": "60a0522d7ab71c03b8de6ee2",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a056777ab71c03b8de6f2e"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Have fun!",
+	"senderId": "aComDqUuQB9O",
+	"sender": "60a051f97ab71c03b8de6ed4",
+	"sender_team_name": "Spinning DISCS",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-15T23:17:11.828Z"
+	},
+	"destination": "60a0526a7ab71c03b8de6ef0",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a056777ab71c03b8de6f2f"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Have fun!",
+	"senderId": "aComDqUuQB9O",
+	"sender": "60a051f97ab71c03b8de6ed4",
+	"sender_team_name": "Spinning DISCS",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-15T23:17:11.890Z"
+	},
+	"destination": "60a0532f7ab71c03b8de6ef7",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-16T01:03:13.502Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a056777ab71c03b8de6f30"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Have fun!",
+	"senderId": "aComDqUuQB9O",
+	"sender": "60a051f97ab71c03b8de6ed4",
+	"sender_team_name": "Spinning DISCS",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-15T23:17:11.968Z"
+	},
+	"destination": "60a0534d7ab71c03b8de6efd",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-15T23:18:44.378Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a056787ab71c03b8de6f31"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Have fun!",
+	"senderId": "aComDqUuQB9O",
+	"sender": "60a051f97ab71c03b8de6ed4",
+	"sender_team_name": "Spinning DISCS",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-15T23:17:12.031Z"
+	},
+	"destination": "60a0540c7ab71c03b8de6f05",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a056787ab71c03b8de6f32"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Have fun!",
+	"senderId": "aComDqUuQB9O",
+	"sender": "60a051f97ab71c03b8de6ed4",
+	"sender_team_name": "Spinning DISCS",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-15T23:17:12.154Z"
+	},
+	"destination": "admin",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a056f47ab71c03b8de6f33"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck to all teams",
+	"senderId": "ekaot3KsU1Av",
+	"sender": "60a051657ab71c03b8de6eb4",
+	"sender_team_name": "Low speed high drag",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-15T23:19:16.810Z"
+	},
+	"destination": "60a0510c7ab71c03b8de6e9c",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a056f47ab71c03b8de6f34"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck to all teams",
+	"senderId": "ekaot3KsU1Av",
+	"sender": "60a051657ab71c03b8de6eb4",
+	"sender_team_name": "Low speed high drag",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-15T23:19:16.888Z"
+	},
+	"destination": "60a051147ab71c03b8de6ea2",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-16T01:10:50.586Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a056f47ab71c03b8de6f35"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck to all teams",
+	"senderId": "ekaot3KsU1Av",
+	"sender": "60a051657ab71c03b8de6eb4",
+	"sender_team_name": "Low speed high drag",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-15T23:19:16.950Z"
+	},
+	"destination": "60a051337ab71c03b8de6ea8",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a056f57ab71c03b8de6f36"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck to all teams",
+	"senderId": "ekaot3KsU1Av",
+	"sender": "60a051657ab71c03b8de6eb4",
+	"sender_team_name": "Low speed high drag",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-15T23:19:17.028Z"
+	},
+	"destination": "60a051347ab71c03b8de6eae",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a056f57ab71c03b8de6f37"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck to all teams",
+	"senderId": "ekaot3KsU1Av",
+	"sender": "60a051657ab71c03b8de6eb4",
+	"sender_team_name": "Low speed high drag",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-15T23:19:17.138Z"
+	},
+	"destination": "60a051657ab71c03b8de6eb4",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a056f57ab71c03b8de6f38"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck to all teams",
+	"senderId": "ekaot3KsU1Av",
+	"sender": "60a051657ab71c03b8de6eb4",
+	"sender_team_name": "Low speed high drag",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-15T23:19:17.200Z"
+	},
+	"destination": "60a051687ab71c03b8de6eba",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a056f57ab71c03b8de6f39"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck to all teams",
+	"senderId": "ekaot3KsU1Av",
+	"sender": "60a051657ab71c03b8de6eb4",
+	"sender_team_name": "Low speed high drag",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-15T23:19:17.278Z"
+	},
+	"destination": "60a051737ab71c03b8de6ec0",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-15T23:20:27.032Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a056f57ab71c03b8de6f3a"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck to all teams",
+	"senderId": "ekaot3KsU1Av",
+	"sender": "60a051657ab71c03b8de6eb4",
+	"sender_team_name": "Low speed high drag",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-15T23:19:17.356Z"
+	},
+	"destination": "60a0517c7ab71c03b8de6ec6",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-15T23:28:53.213Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a056f57ab71c03b8de6f3b"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck to all teams",
+	"senderId": "ekaot3KsU1Av",
+	"sender": "60a051657ab71c03b8de6eb4",
+	"sender_team_name": "Low speed high drag",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-15T23:19:17.450Z"
+	},
+	"destination": "60a051bf7ab71c03b8de6ecc",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-15T23:19:44.057Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a056f57ab71c03b8de6f3c"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck to all teams",
+	"senderId": "ekaot3KsU1Av",
+	"sender": "60a051657ab71c03b8de6eb4",
+	"sender_team_name": "Low speed high drag",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-15T23:19:17.528Z"
+	},
+	"destination": "60a051f97ab71c03b8de6ed4",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a056f57ab71c03b8de6f3d"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck to all teams",
+	"senderId": "ekaot3KsU1Av",
+	"sender": "60a051657ab71c03b8de6eb4",
+	"sender_team_name": "Low speed high drag",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-15T23:19:17.591Z"
+	},
+	"destination": "60a052157ab71c03b8de6edb",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a056f57ab71c03b8de6f3e"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck to all teams",
+	"senderId": "ekaot3KsU1Av",
+	"sender": "60a051657ab71c03b8de6eb4",
+	"sender_team_name": "Low speed high drag",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-15T23:19:17.669Z"
+	},
+	"destination": "60a0522d7ab71c03b8de6ee2",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a056f57ab71c03b8de6f3f"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck to all teams",
+	"senderId": "ekaot3KsU1Av",
+	"sender": "60a051657ab71c03b8de6eb4",
+	"sender_team_name": "Low speed high drag",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-15T23:19:17.763Z"
+	},
+	"destination": "60a0526a7ab71c03b8de6ef0",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a056f57ab71c03b8de6f40"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck to all teams",
+	"senderId": "ekaot3KsU1Av",
+	"sender": "60a051657ab71c03b8de6eb4",
+	"sender_team_name": "Low speed high drag",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-15T23:19:17.841Z"
+	},
+	"destination": "60a0532f7ab71c03b8de6ef7",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-16T01:03:13.549Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a056f57ab71c03b8de6f41"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck to all teams",
+	"senderId": "ekaot3KsU1Av",
+	"sender": "60a051657ab71c03b8de6eb4",
+	"sender_team_name": "Low speed high drag",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-15T23:19:17.903Z"
+	},
+	"destination": "60a0534d7ab71c03b8de6efd",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-16T01:25:22.545Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a056f57ab71c03b8de6f42"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck to all teams",
+	"senderId": "ekaot3KsU1Av",
+	"sender": "60a051657ab71c03b8de6eb4",
+	"sender_team_name": "Low speed high drag",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-15T23:19:17.981Z"
+	},
+	"destination": "60a0540c7ab71c03b8de6f05",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a056f67ab71c03b8de6f43"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Good luck to all teams",
+	"senderId": "ekaot3KsU1Av",
+	"sender": "60a051657ab71c03b8de6eb4",
+	"sender_team_name": "Low speed high drag",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-15T23:19:18.075Z"
+	},
+	"destination": "admin",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a0625c7ab71c03b8de7bb7"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Dear John, this is a fantastic activity and one we will share with the world (good for your business). What will it take to slip us a couple of hundred points.",
+	"senderId": "pbuvGGRkqffa",
+	"sender": "60a051737ab71c03b8de6ec0",
+	"sender_team_name": "Rowing for team australia",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T00:07:56.565Z"
+	},
+	"destination": "admin",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a069697ab71c03b8de856a"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Our photos are no longer uploading so we are not getting any points ",
+	"senderId": "BT3alUT2QTO1",
+	"sender": "60a0540c7ab71c03b8de6f05",
+	"sender_team_name": "Artatack",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T00:38:01.147Z"
+	},
+	"destination": "admin",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a06c727ab71c03b8de8a38"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Have you guys attempted site 15 yet? Might have a deal for you…",
+	"senderId": "LpoUvgfcvHAK",
+	"sender": "60a051687ab71c03b8de6eba",
+	"sender_team_name": "Pink Panther",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-16T00:50:58.900Z"
+	},
+	"destination": "60a0534d7ab71c03b8de6efd",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-16T01:25:14.392Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a06cd47ab71c03b8de8a5e"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Have you guys done site 15 yet? We might have a deal for you…",
+	"senderId": "LpoUvgfcvHAK",
+	"sender": "60a051687ab71c03b8de6eba",
+	"sender_team_name": "Pink Panther",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-16T00:52:36.191Z"
+	},
+	"destination": "60a051147ab71c03b8de6ea2",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-16T01:10:50.492Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a06da37ab71c03b8de8b82"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "notice",
+	"message_text": "Keep an eye on losing points.",
+	"senderId": "admin",
+	"sender": "admin",
+	"sender_team_name": "admin",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T00:56:03.063Z"
+	},
+	"destination": "60a0510c7ab71c03b8de6e9c",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a06da37ab71c03b8de8b83"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "notice",
+	"message_text": "Keep an eye on losing points.",
+	"senderId": "admin",
+	"sender": "admin",
+	"sender_team_name": "admin",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-16T00:56:03.313Z"
+	},
+	"destination": "60a051147ab71c03b8de6ea2",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-16T01:10:49.070Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a06da37ab71c03b8de8b86"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "notice",
+	"message_text": "Keep an eye on losing points.",
+	"senderId": "admin",
+	"sender": "admin",
+	"sender_team_name": "admin",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T00:56:03.860Z"
+	},
+	"destination": "60a051337ab71c03b8de6ea8",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a06da47ab71c03b8de8b88"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "notice",
+	"message_text": "Keep an eye on losing points.",
+	"senderId": "admin",
+	"sender": "admin",
+	"sender_team_name": "admin",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T00:56:04.126Z"
+	},
+	"destination": "60a051347ab71c03b8de6eae",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a06da47ab71c03b8de8b8a"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "notice",
+	"message_text": "Keep an eye on losing points.",
+	"senderId": "admin",
+	"sender": "admin",
+	"sender_team_name": "admin",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T00:56:04.297Z"
+	},
+	"destination": "60a051657ab71c03b8de6eb4",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a06da47ab71c03b8de8b8c"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "notice",
+	"message_text": "Keep an eye on losing points.",
+	"senderId": "admin",
+	"sender": "admin",
+	"sender_team_name": "admin",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T00:56:04.626Z"
+	},
+	"destination": "60a051687ab71c03b8de6eba",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a06da47ab71c03b8de8b8f"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "notice",
+	"message_text": "Keep an eye on losing points.",
+	"senderId": "admin",
+	"sender": "admin",
+	"sender_team_name": "admin",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T00:56:04.891Z"
+	},
+	"destination": "60a051737ab71c03b8de6ec0",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a06da57ab71c03b8de8bad"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "notice",
+	"message_text": "Keep an eye on losing points.",
+	"senderId": "admin",
+	"sender": "admin",
+	"sender_team_name": "admin",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T00:56:05.719Z"
+	},
+	"destination": "60a0517c7ab71c03b8de6ec6",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a06da67ab71c03b8de8bc3"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "notice",
+	"message_text": "Keep an eye on losing points.",
+	"senderId": "admin",
+	"sender": "admin",
+	"sender_team_name": "admin",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T00:56:06.079Z"
+	},
+	"destination": "60a051bf7ab71c03b8de6ecc",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a06da77ab71c03b8de8bcf"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "notice",
+	"message_text": "Keep an eye on losing points.",
+	"senderId": "admin",
+	"sender": "admin",
+	"sender_team_name": "admin",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T00:56:07.719Z"
+	},
+	"destination": "60a051f97ab71c03b8de6ed4",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a06da87ab71c03b8de8bee"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "notice",
+	"message_text": "Keep an eye on losing points.",
+	"senderId": "admin",
+	"sender": "admin",
+	"sender_team_name": "admin",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T00:56:08.235Z"
+	},
+	"destination": "60a052157ab71c03b8de6edb",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a06da87ab71c03b8de8c0b"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "notice",
+	"message_text": "Keep an eye on losing points.",
+	"senderId": "admin",
+	"sender": "admin",
+	"sender_team_name": "admin",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T00:56:08.896Z"
+	},
+	"destination": "60a0522d7ab71c03b8de6ee2",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a06da97ab71c03b8de8c2b"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "notice",
+	"message_text": "Keep an eye on losing points.",
+	"senderId": "admin",
+	"sender": "admin",
+	"sender_team_name": "admin",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T00:56:09.256Z"
+	},
+	"destination": "60a0526a7ab71c03b8de6ef0",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a06db07ab71c03b8de8c36"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "notice",
+	"message_text": "Keep an eye on losing points.",
+	"senderId": "admin",
+	"sender": "admin",
+	"sender_team_name": "admin",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-16T00:56:16.849Z"
+	},
+	"destination": "60a0532f7ab71c03b8de6ef7",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-16T01:03:13.752Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a06db17ab71c03b8de8c37"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "notice",
+	"message_text": "Keep an eye on losing points.",
+	"senderId": "admin",
+	"sender": "admin",
+	"sender_team_name": "admin",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-16T00:56:17.490Z"
+	},
+	"destination": "60a0534d7ab71c03b8de6efd",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-16T01:25:20.496Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a06db17ab71c03b8de8c3a"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "notice",
+	"message_text": "Keep an eye on losing points.",
+	"senderId": "admin",
+	"sender": "admin",
+	"sender_team_name": "admin",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T00:56:17.974Z"
+	},
+	"destination": "60a0540c7ab71c03b8de6f05",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a06ef87ab71c03b8de8d81"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "notice",
+	"message_text": "Its big reward but big loss time guys...",
+	"senderId": "admin",
+	"sender": "admin",
+	"sender_team_name": "admin",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T01:01:44.831Z"
+	},
+	"destination": "60a0510c7ab71c03b8de6e9c",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a06ef87ab71c03b8de8d82"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "notice",
+	"message_text": "Its big reward but big loss time guys...",
+	"senderId": "admin",
+	"sender": "admin",
+	"sender_team_name": "admin",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-16T01:01:44.989Z"
+	},
+	"destination": "60a051147ab71c03b8de6ea2",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-16T01:10:46.569Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a06ef97ab71c03b8de8d83"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "notice",
+	"message_text": "Its big reward but big loss time guys...",
+	"senderId": "admin",
+	"sender": "admin",
+	"sender_team_name": "admin",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T01:01:45.208Z"
+	},
+	"destination": "60a051337ab71c03b8de6ea8",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a06ef97ab71c03b8de8d84"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "notice",
+	"message_text": "Its big reward but big loss time guys...",
+	"senderId": "admin",
+	"sender": "admin",
+	"sender_team_name": "admin",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T01:01:45.364Z"
+	},
+	"destination": "60a051347ab71c03b8de6eae",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a06ef97ab71c03b8de8d85"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "notice",
+	"message_text": "Its big reward but big loss time guys...",
+	"senderId": "admin",
+	"sender": "admin",
+	"sender_team_name": "admin",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T01:01:45.568Z"
+	},
+	"destination": "60a051657ab71c03b8de6eb4",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a06ef97ab71c03b8de8d86"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "notice",
+	"message_text": "Its big reward but big loss time guys...",
+	"senderId": "admin",
+	"sender": "admin",
+	"sender_team_name": "admin",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T01:01:45.755Z"
+	},
+	"destination": "60a051687ab71c03b8de6eba",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a06efa7ab71c03b8de8d87"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "notice",
+	"message_text": "Its big reward but big loss time guys...",
+	"senderId": "admin",
+	"sender": "admin",
+	"sender_team_name": "admin",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T01:01:46.130Z"
+	},
+	"destination": "60a051737ab71c03b8de6ec0",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a06efa7ab71c03b8de8d88"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "notice",
+	"message_text": "Its big reward but big loss time guys...",
+	"senderId": "admin",
+	"sender": "admin",
+	"sender_team_name": "admin",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T01:01:46.349Z"
+	},
+	"destination": "60a0517c7ab71c03b8de6ec6",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a06efa7ab71c03b8de8d89"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "notice",
+	"message_text": "Its big reward but big loss time guys...",
+	"senderId": "admin",
+	"sender": "admin",
+	"sender_team_name": "admin",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T01:01:46.536Z"
+	},
+	"destination": "60a051bf7ab71c03b8de6ecc",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a06efa7ab71c03b8de8d8a"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "notice",
+	"message_text": "Its big reward but big loss time guys...",
+	"senderId": "admin",
+	"sender": "admin",
+	"sender_team_name": "admin",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T01:01:46.703Z"
+	},
+	"destination": "60a051f97ab71c03b8de6ed4",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a06efa7ab71c03b8de8d8b"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "notice",
+	"message_text": "Its big reward but big loss time guys...",
+	"senderId": "admin",
+	"sender": "admin",
+	"sender_team_name": "admin",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T01:01:46.875Z"
+	},
+	"destination": "60a052157ab71c03b8de6edb",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a06efb7ab71c03b8de8d8c"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "notice",
+	"message_text": "Its big reward but big loss time guys...",
+	"senderId": "admin",
+	"sender": "admin",
+	"sender_team_name": "admin",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T01:01:47.031Z"
+	},
+	"destination": "60a0522d7ab71c03b8de6ee2",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a06efb7ab71c03b8de8d8d"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "notice",
+	"message_text": "Its big reward but big loss time guys...",
+	"senderId": "admin",
+	"sender": "admin",
+	"sender_team_name": "admin",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T01:01:47.250Z"
+	},
+	"destination": "60a0526a7ab71c03b8de6ef0",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a06efb7ab71c03b8de8d8e"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "notice",
+	"message_text": "Its big reward but big loss time guys...",
+	"senderId": "admin",
+	"sender": "admin",
+	"sender_team_name": "admin",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-16T01:01:47.406Z"
+	},
+	"destination": "60a0532f7ab71c03b8de6ef7",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-16T01:03:13.643Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a06efb7ab71c03b8de8d8f"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "notice",
+	"message_text": "Its big reward but big loss time guys...",
+	"senderId": "admin",
+	"sender": "admin",
+	"sender_team_name": "admin",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-16T01:01:47.568Z"
+	},
+	"destination": "60a0534d7ab71c03b8de6efd",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-16T01:25:18.063Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a06efb7ab71c03b8de8d90"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "notice",
+	"message_text": "Its big reward but big loss time guys...",
+	"senderId": "admin",
+	"sender": "admin",
+	"sender_team_name": "admin",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T01:01:47.755Z"
+	},
+	"destination": "60a0540c7ab71c03b8de6f05",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a0710b7ab71c03b8de908b"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Great work 2confused! 75k!",
+	"sender": "60a0510c7ab71c03b8de6e9c",
+	"sender_team_name": "Dynamic dozen",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T01:10:35.694Z"
+	},
+	"destination": "60a0510c7ab71c03b8de6e9c",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a0710b7ab71c03b8de908c"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Great work 2confused! 75k!",
+	"sender": "60a0510c7ab71c03b8de6e9c",
+	"sender_team_name": "Dynamic dozen",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-16T01:10:35.881Z"
+	},
+	"destination": "60a051147ab71c03b8de6ea2",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-16T01:34:41.549Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a0710c7ab71c03b8de908d"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Great work 2confused! 75k!",
+	"sender": "60a0510c7ab71c03b8de6e9c",
+	"sender_team_name": "Dynamic dozen",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-16T01:10:36.053Z"
+	},
+	"destination": "60a051337ab71c03b8de6ea8",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-16T01:12:35.255Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a0710c7ab71c03b8de908e"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Great work 2confused! 75k!",
+	"sender": "60a0510c7ab71c03b8de6e9c",
+	"sender_team_name": "Dynamic dozen",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T01:10:36.225Z"
+	},
+	"destination": "60a051347ab71c03b8de6eae",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a0710c7ab71c03b8de9097"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Great work 2confused! 75k!",
+	"sender": "60a0510c7ab71c03b8de6e9c",
+	"sender_team_name": "Dynamic dozen",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T01:10:36.538Z"
+	},
+	"destination": "60a051657ab71c03b8de6eb4",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a0710c7ab71c03b8de9098"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Great work 2confused! 75k!",
+	"sender": "60a0510c7ab71c03b8de6e9c",
+	"sender_team_name": "Dynamic dozen",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T01:10:36.725Z"
+	},
+	"destination": "60a051687ab71c03b8de6eba",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a0710d7ab71c03b8de9099"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Great work 2confused! 75k!",
+	"sender": "60a0510c7ab71c03b8de6e9c",
+	"sender_team_name": "Dynamic dozen",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T01:10:37.319Z"
+	},
+	"destination": "60a051737ab71c03b8de6ec0",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a0710d7ab71c03b8de909a"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Great work 2confused! 75k!",
+	"sender": "60a0510c7ab71c03b8de6e9c",
+	"sender_team_name": "Dynamic dozen",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T01:10:37.835Z"
+	},
+	"destination": "60a0517c7ab71c03b8de6ec6",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a0710e7ab71c03b8de909b"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Great work 2confused! 75k!",
+	"sender": "60a0510c7ab71c03b8de6e9c",
+	"sender_team_name": "Dynamic dozen",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T01:10:38.085Z"
+	},
+	"destination": "60a051bf7ab71c03b8de6ecc",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a0710e7ab71c03b8de909c"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Great work 2confused! 75k!",
+	"sender": "60a0510c7ab71c03b8de6e9c",
+	"sender_team_name": "Dynamic dozen",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T01:10:38.397Z"
+	},
+	"destination": "60a051f97ab71c03b8de6ed4",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a0710e7ab71c03b8de909d"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Great work 2confused! 75k!",
+	"sender": "60a0510c7ab71c03b8de6e9c",
+	"sender_team_name": "Dynamic dozen",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T01:10:38.725Z"
+	},
+	"destination": "60a052157ab71c03b8de6edb",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a0710f7ab71c03b8de909e"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Great work 2confused! 75k!",
+	"sender": "60a0510c7ab71c03b8de6e9c",
+	"sender_team_name": "Dynamic dozen",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T01:10:39.319Z"
+	},
+	"destination": "60a0522d7ab71c03b8de6ee2",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a071167ab71c03b8de909f"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Great work 2confused! 75k!",
+	"sender": "60a0510c7ab71c03b8de6e9c",
+	"sender_team_name": "Dynamic dozen",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T01:10:46.319Z"
+	},
+	"destination": "60a0526a7ab71c03b8de6ef0",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a071177ab71c03b8de90a1"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Great work 2confused! 75k!",
+	"sender": "60a0510c7ab71c03b8de6e9c",
+	"sender_team_name": "Dynamic dozen",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T01:10:47.647Z"
+	},
+	"destination": "60a0532f7ab71c03b8de6ef7",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a071187ab71c03b8de90a3"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Great work 2confused! 75k!",
+	"sender": "60a0510c7ab71c03b8de6e9c",
+	"sender_team_name": "Dynamic dozen",
+	"message_acknowledged": true,
+	"message_time": {
+		"$date": "2021-05-16T01:10:48.836Z"
+	},
+	"destination": "60a0534d7ab71c03b8de6efd",
+	"__v": 0,
+	"message_acknowledged_time": {
+		"$date": "2021-05-16T01:25:19.525Z"
+	}
+}
+{
+	"_id": {
+		"$oid": "60a071197ab71c03b8de90a4"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Great work 2confused! 75k!",
+	"sender": "60a0510c7ab71c03b8de6e9c",
+	"sender_team_name": "Dynamic dozen",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T01:10:49.055Z"
+	},
+	"destination": "60a0540c7ab71c03b8de6f05",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "60a0711a7ab71c03b8de90a5"
+	},
+	"event": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"category": "message",
+	"subject": "team message",
+	"message_text": "Great work 2confused! 75k!",
+	"sender": "60a0510c7ab71c03b8de6e9c",
+	"sender_team_name": "Dynamic dozen",
+	"message_acknowledged": false,
+	"message_time": {
+		"$date": "2021-05-16T01:10:50.164Z"
+	},
+	"destination": "admin",
+	"__v": 0
+}

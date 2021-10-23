@@ -1,0 +1,11 @@
+
+<div>
+    <button class="event_delete_button" (click)="gotoDeleteEvent()">X</button>
+    <button class="open_event-button" type="button" (click)="gotoManageEvent()">
+        <label class="event-name--label">{{ PresentationName }}</label>
+        <span class="tooltiptext">{{ event?.name }}</span>
+        <!-- <label class="event-name--label">{{ event?.name }}</label> -->
+        <br>
+        <label class="event-city--label">{{ event?.city }}</label>
+    </button>
+</div>

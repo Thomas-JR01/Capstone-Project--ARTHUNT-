@@ -1,0 +1,90 @@
+<div class="container">
+    <section>
+        <div class="events-title">
+            <h1 class="title">ArtHunt</h1>
+            <h1 class="title-subtitle">Events</h1>
+        </div>
+    </section>
+    
+    
+    <form [formGroup]="eventcreateForm" class="eventcreate-form" (ngSubmit)="createEvent()">
+    
+        <section class="new-event-details-section">
+    
+            <label class="new-event-details-label" style="padding-bottom: .2em; font-size: 1.8rem;">New Event Details</label><br><br><br>
+    
+            <div class="form-items">
+    
+                <label class="input-label">Event Name</label>
+                <input class="input-details" spellcheck="false" type="text" formControlName="EventName" required/>
+        
+                <label class="input-label">Event Location</label>
+                <select class="input-details" name="location-select" id="locations" formControlName="Location" required>
+                    <option value="Brisbane">Brisbane</option>
+                    <option value="Canberra">Canberra</option>
+                    <option value="Sydney">Sydney</option>
+                </select>
+    
+                <label class="input-label">Coordinator</label>
+                <input class="input-details" spellcheck="false" type="text" formControlName="CoordinatorName" required/>
+    
+                <label class="input-label">Contact</label>
+                <input class="input-details" spellcheck="false" type="text" formControlName="Contact" required/>
+
+
+
+                <label class="input-label" style="padding-bottom: .5em; font-size: 1.8rem;">Event Settings:</label><br><br>
+
+                <label class="input-label">Game Time (Seconds)</label>
+                <input class="input-details" spellcheck="false" type="number" min="60" formControlName="E_S_GameTime" required/>
+
+                <label class="input-label">Round Time (Seconds)</label>
+                <input class="input-details" spellcheck="false" type="number" min="1" formControlName="E_S_RoundTime" required/>
+
+                <label class="input-label">Recovery Time (Seconds)</label>
+                <input class="input-details" spellcheck="false" type="number" min="1" formControlName="E_S_RecoveryTime" required/>
+
+                <label class="input-label">Question Complexity</label>
+                <input class="input-details" spellcheck="false" type="number" min="0" max="10" formControlName="E_S_QuestionNum" required/>
+
+                <label class="input-label">Team Starting Points</label>
+                <input class="input-details" spellcheck="false" type="number" min="0" formControlName="Default_Points" required/>
+
+
+                <label class="input-label" style="padding-bottom: .5em; font-size: 1.8rem;">Site Settings:</label><br><br>
+    
+                <label class="input-label">Starting Points</label>
+                <input class="input-details" spellcheck="false" type="number" min="0" formControlName="S_S_StartingPoints" required/>
+
+                <label class="input-label">Team Photo Reward (%)</label>
+                <input class="input-details" spellcheck="false" type="number" min="0" max="100" formControlName="S_S_TeamPhoto" required/>
+
+                <label class="input-label">Title Reward (%)</label>
+                <input class="input-details" spellcheck="false" type="number" min="0" max="100" formControlName="S_S_Title" required/>
+
+                <label class="input-label">Theme Reward (%)</label>
+                <input class="input-details" spellcheck="false" type="number" min="0" max="100" formControlName="S_S_Theme" required/>
+
+                <label class="input-label">Close-Up Reward (%)</label>
+                <input class="input-details" spellcheck="false" type="number" min="0" max="100" formControlName="S_S_CloseUp" required/>
+
+                <label class="input-label">Artist Reward (%)</label>
+                <input class="input-details" spellcheck="false" type="number" min="0" max="100" formControlName="S_S_Artist" required/>
+
+                <label class="input-label">Year Reward (%)</label>
+                <input class="input-details" spellcheck="false" type="number" min="0" max="100" formControlName="S_S_Year" required/>
+
+                <label class="input-label">Growth Rate (%)</label>
+                <input class="input-details" spellcheck="false" type="number" min="0" max="100" formControlName="S_S_GrowthRate" required/>
+    
+            </div>
+            
+        </section>
+    
+        <div class="create-event-div">
+            <button class="create-button" type="submit">Create Event</button>
+        </div>
+        
+    </form>
+</div>
+

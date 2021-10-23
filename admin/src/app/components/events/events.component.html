@@ -1,0 +1,49 @@
+<button class="logout-button" type="button" (click)="logout()">Logout</button>
+
+<div class="container">
+    <section>
+    <div class="events-title">
+        <h1 class="title">ArtHunt</h1>
+        <h1 class="title-subtitle">Events</h1>
+    </div>
+</section>
+
+<form [formGroup]="eventsForm" class="events-form">
+
+    <section class="events-interaction-section">
+
+        <div class="event-item">
+            <button class="create_event-button" type="button" (click)="gotoSiteInfo()">
+                <label class="event-create--label">Manage</label>
+                <br>
+                <label class="event-create--label">Sites</label>
+            </button>
+        </div>
+
+        <div class="event-item">
+            <button class="create_event-button" type="button" (click)="gotoCreateAdmin()">
+                <label class="event-create--label">Create</label>
+                <br>
+                <label class="event-create--label">Admin</label>
+            </button>
+        </div>
+
+        <div class="event-item">
+            <button class="create_event-button" type="button" (click)="gotoCreateEvent()">
+                <label class="event-create--label">Create</label>
+                <br>
+                <label class="event-create--label">Event</label>
+            </button>
+        </div>
+
+
+        <div class="event-item" *ngFor="let event of eventList">
+            <app-event-button [event]="event"></app-event-button>
+        </div>
+
+    </section>
+
+</form>
+</div>
+
+

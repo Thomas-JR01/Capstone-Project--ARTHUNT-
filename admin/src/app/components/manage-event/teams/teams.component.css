@@ -1,0 +1,77 @@
+.teams {
+    display: grid;
+    grid-gap: 1em;
+}
+
+.rank-text {
+    color: #b8b8b8;
+}
+
+.team-rows {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    font-size: 1em;
+}
+
+.team-expansion {
+    font-size:1.5em;
+    background-color: #d7d7d7;
+    border-radius: 0.5em;
+    padding:0.5em;
+    width:min(80%, 1500px);
+}
+
+.expansion-text {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    font-size: 0.9em;
+    padding-top: 1em;
+    grid-gap: 1em;
+}
+
+.team-names {
+    font-size: 1em;
+    font-weight: bold;
+    color: #686868;
+}
+
+.team-points {
+    font-size: 1em;
+    color: #686868;
+}
+
+.members-title {
+    color: #686868;
+}
+
+.strategy-title {
+    color: #686868;
+}
+
+.contact-title {
+    color: #686868;
+}
+
+.members-list {
+    grid-row: 1/3;
+    background-color: #cfcfcf;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.member-usernames {
+    font-size:0.7em;
+}
+
+.strategy {
+    background-color: #cfcfcf;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.contact {
+    background-color: #cfcfcf;
+    padding: 1em;
+    border-radius: 1em;
+}

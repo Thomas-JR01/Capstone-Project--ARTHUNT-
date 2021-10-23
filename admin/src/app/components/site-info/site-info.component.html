@@ -1,0 +1,35 @@
+<div class="container">
+    <section>
+        <div class="events-title">
+            <h1 class="title">ArtHunt</h1>
+            <h1 class="title-subtitle">Sites</h1>
+            <br>
+            <button class="back-button" type="button" (click)="gotoEvents()">Home</button>
+        </div>
+    </section>
+
+    <div class="sites-div">
+        <div class="site-list-headers">
+            <table>
+                <tr>
+                    <th>
+                        <Label>Location</Label>
+                    </th>
+                    <th>
+                        <Label>Title</Label>
+                    </th>
+                </tr>
+            </table>
+        </div>
+
+        <form [formGroup]="sitesForm" class="sites-form">
+            <div class="site-list-items" *ngFor="let site of siteList">
+                <app-site-info-item [site]="site"></app-site-info-item>
+            </div>
+        </form>
+    </div>
+
+    
+</div>
+
+

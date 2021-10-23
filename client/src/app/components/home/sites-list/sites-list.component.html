@@ -1,0 +1,24 @@
+<div class="site-list-headers">
+    <table>
+        <tr>
+            <th>
+                <button type="button" (click)="sortBy_Sites()">Site</button>
+            </th>
+            <th>
+                <button type="button" (click)="sortBy_Points()">Points</button>
+            </th>
+            <th>
+                <button type="button" (click)="sortBy_GrowthRate()">Growth</button>
+            </th>
+        </tr>
+    </table>
+</div>
+
+<form [formGroup]="sitesForm" class="sites-form">
+    <div class="site-list-items" *ngFor="let site of siteList">
+        <app-site-list-item [site]="site"></app-site-list-item>
+    </div>
+</form>
+
+
+

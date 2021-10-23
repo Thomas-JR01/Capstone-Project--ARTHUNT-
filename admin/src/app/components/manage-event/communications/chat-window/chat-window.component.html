@@ -1,0 +1,20 @@
+<div class="chat-log">
+    <span>{{recipient}}</span>
+    <div class="message-section-wrapper">
+        <div class="messages-section">
+            <div class="message" *ngFor="let message of messages" [ngStyle]="message.sender_id === -getEventID() ? {'margin-left': 'auto'} : null">
+                <div class="sender">
+                    <span>
+                        {{message.sender}}
+                    </span>
+                </div>
+                <div class="message-text" [ngStyle]="message.sender_id === -getEventID() ? {'background-color': '#cacaca'} : null">
+                    {{message.message_text}}
+                    <div class="time-sent">
+                        {{message.time}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

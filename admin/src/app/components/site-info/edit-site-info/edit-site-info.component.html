@@ -1,0 +1,93 @@
+<div class="container">
+    <section>
+        <div class="events-title">
+            <h1 class="title">ArtHunt</h1>
+            <h1 class="title-subtitle">Events</h1>
+        </div>
+    </section>
+    
+    
+    <form [formGroup]="eventcreateForm" class="eventcreate-form" (ngSubmit)="updateSite()">
+    
+        <section class="new-event-details-section">
+    
+            <label class="new-event-details-label">New Event Details</label><br><br><br>
+    
+            <div class="form-items">
+        
+                <label class="input-label">Site Location</label>
+                <select class="input-details" name="location-select" id="locations" formControlName="location">
+                    <option value="Brisbane">Brisbane</option>
+                    <option value="Canberra">Canberra</option>
+                    <option value="Sydney">Sydney</option>
+                </select>
+            
+                <label class="input-label">Site Title</label>
+                <input class="input-details" spellcheck="false" type="text" formControlName="title"/>
+    
+                <label class="input-label">Site Artist</label>
+                <input class="input-details" spellcheck="false" type="text" formControlName="artist"/>
+
+                <label class="input-label">Site Year</label>
+                <input class="input-details" spellcheck="false" type="text" formControlName="year"/>
+    
+                <label class="input-label">Site Active</label>
+                <input class="input-details" spellcheck="false" type="text" formControlName="active"/>
+
+                <label class="input-label">Site Theme</label>
+                <input class="input-details" spellcheck="false" type="text" formControlName="theme"/>
+
+                <label class="input-label">Site Latitude</label>
+                <input class="input-details" spellcheck="false" type="text" formControlName="lat"/>
+    
+                <label class="input-label">Site Longitude</label>
+                <input class="input-details" spellcheck="false" type="text" formControlName="long"/>
+
+                <label class="input-label">Site information</label>
+                <input class="input-details" spellcheck="false" type="text" formControlName="information"/>
+
+                <label class="input-label">Site Type</label>
+                <input class="input-details" spellcheck="false" type="text" formControlName="type"/>
+
+                <label class="input-label">Site Clue</label>
+                <input class="input-details" spellcheck="false" type="text" formControlName="clue"/>
+
+                <label class="input-label">Site Notes</label>
+                <input class="input-details" spellcheck="false" type="text" formControlName="notes"/>
+
+
+                <div class="image-input-div">
+                    <label class="input-label">Main Image</label><br>
+                    <img width=100px src='data:image/png;base64,{{IMAGE_main_img}}'/>
+                    <br>
+                    <label class="input-label">Upload New:</label>
+                    <div class="upload-div">
+                        <input type="hidden" name="MAX_FILE_SIZE" value="100000" />
+                        <input class="choosefileinput" style="width: 16em;" name="uploadedfile" type="file" (change)="onChange_main($event)"/>
+                    </div>
+                </div>
+
+                <div class="image-input-div">
+                    <label class="input-label">Close-Up Image</label><br>
+                    <img width=100px src='data:image/png;base64,{{IMAGE_closeup_img}}'/>
+                    <br>
+                    <label class="input-label">Upload New:</label>
+                    <div class="upload-div">
+                        <input type="hidden" name="MAX_FILE_SIZE" value="100000"/>
+                        <input class="choosefileinput" style="width: 16em;" name="uploadedfile" type="file" (change)="onChange_closeup($event)"/>   
+                    </div>                   
+                </div>
+
+
+            </div>
+            
+        </section>
+    
+        <div class="create-event-div">
+            <button class="create-button" type="submit">Update Site</button>
+        </div>
+        
+    </form>
+</div>
+
+

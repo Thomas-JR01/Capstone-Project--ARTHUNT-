@@ -1,0 +1,49 @@
+#component {
+    text-align: center;
+}
+
+.add-member-title {
+    text-align: center;
+}
+
+#title {
+    color: white;
+    font-size: 2em;
+}
+
+mat-label {
+    color: white;
+}
+
+.input {
+    display: grid;
+}
+
+input {
+    color: white;
+}
+
+.mat-dialog-actions {
+    justify-content: center;
+}
+
+#cancel-btn {
+    border-width: 0;
+    background-color: transparent;
+    padding: 0 4vw;
+    color: white;
+    font-size: 1em;
+}
+
+#add-btn {
+    border-width: 0;
+    background-color: #3A3A3A;
+    padding: 0 5vw;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+}
+
+#add-btn:hover {
+    background-color: #3A3A3A;
+}

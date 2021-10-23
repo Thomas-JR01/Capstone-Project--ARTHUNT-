@@ -1,0 +1,18 @@
+<div class="leaderboard-headers">
+    <app-masthead></app-masthead>
+    <table>
+        <tr>
+            <th>
+                <label>Leaderboard</label>
+            </th>
+        </tr>
+    </table>
+</div>
+
+<form [formGroup]="leaderboardForm" class="leaderboard-form">
+    <div class="leaderboard-items" *ngFor="let entry of entryList">
+        <app-leaderboard-item [entry]="entry"></app-leaderboard-item>
+    </div>
+</form>
+
+

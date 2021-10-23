@@ -1,0 +1,49 @@
+.events-title {
+    font-family: Montserrat;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.title {
+    margin: 0%;
+    font-size: min(18vw, 72px);
+    color: #588EFF;
+    display: inline-block;
+}
+
+.title-subtitle {
+    padding-left: .3em;
+    margin: 0%;
+    font-size: min(18vw, 72px);
+    color: #686868;
+    display: inline-block;
+}
+
+.body-div{
+    font-family: Montserrat;
+    text-align: center;
+}
+
+h2 {
+    margin: 0em;
+    font-size: 2em;
+}
+
+h3 {
+    margin: .5em;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+h4 {
+    margin: .5em;
+    font-size: 3em;
+}
+
+.slide-image {
+    margin-top: 3em;
+}
+
+.main-img {
+    height: 45em;
+}

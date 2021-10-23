@@ -1,0 +1,192 @@
+<!-- Strategies Leaderboard (0) -->
+<app-loading *ngIf="loading"></app-loading>
+<div *ngIf="!loading">
+    <mat-expansion-panel class="chart-expansion">
+        <mat-expansion-panel-header>
+            <mat-panel-title><h2 class="title">Team Strategies Leaderboard</h2></mat-panel-title>
+            <mat-panel-description></mat-panel-description>
+        </mat-expansion-panel-header>
+        <div class="expansion-context">
+            <div class="expansion-context-strategies">
+                <div class="strategy-pie-chart">
+                    <label>{{StrategyData_Formatted[0].name}}</label>
+                    <ngx-charts-pie-chart
+                        [view]="[250,250]"
+                        [results]="StrategyData_Formatted[0].series">
+                    </ngx-charts-pie-chart>
+                </div>
+                <div class="strategy-pie-chart">
+                    <label>{{StrategyData_Formatted[1].name}}</label>
+                    <ngx-charts-pie-chart
+                        [view]="[250,250]"
+                        [results]="StrategyData_Formatted[1].series">
+                    </ngx-charts-pie-chart>
+                </div>
+                <div class="strategy-pie-chart">
+                    <label>{{StrategyData_Formatted[2].name}}</label>
+                    <ngx-charts-pie-chart
+                        [view]="[250,250]"
+                        [results]="StrategyData_Formatted[2].series">
+                    </ngx-charts-pie-chart>
+                </div>
+                <div class="strategy-pie-chart">
+                    <label>{{StrategyData_Formatted[3].name}}</label>
+                    <ngx-charts-pie-chart
+                        [view]="[250,250]"
+                        [results]="StrategyData_Formatted[3].series">
+                    </ngx-charts-pie-chart>
+                </div>
+                <div class="strategy-pie-chart">
+                    <label>{{StrategyData_Formatted[4].name}}</label>
+                    <ngx-charts-pie-chart
+                        [view]="[250,250]"
+                        [results]="StrategyData_Formatted[4].series">
+                    </ngx-charts-pie-chart>
+                </div>
+            </div>
+        </div>
+    </mat-expansion-panel>
+    
+    
+    <!-- TeamOverall_Stats Bar-Stacked -->
+    <mat-expansion-panel class="chart-expansion">
+        <mat-expansion-panel-header>
+            <mat-panel-title><h2 class="title">Team Points Summary</h2></mat-panel-title>
+            <mat-panel-description></mat-panel-description>
+        </mat-expansion-panel-header>
+        <div class="expansion-context">
+            <ngx-charts-bar-vertical-stacked
+                [view]="[1300,380]"
+                [results]="final_teams_summary"
+                [xAxisLabel]="'Team'"
+                [legendTitle]="'Legend'"
+                [yAxisLabel]="'Points'"
+                [showXAxisLabel]="true"
+                [showYAxisLabel]="true"
+                [legend]="true"
+                [xAxis]="true"
+                [yAxis]="true">
+            </ngx-charts-bar-vertical-stacked>
+        </div>
+    </mat-expansion-panel>
+    
+    
+    <!-- teams_total_stats -->
+    <mat-expansion-panel class="chart-expansion">
+        <mat-expansion-panel-header>
+            <mat-panel-title><h2 class="title">Total Points Over Time</h2></mat-panel-title>
+            <mat-panel-description></mat-panel-description>
+        </mat-expansion-panel-header>
+        <div class="expansion-context">
+            <ngx-charts-line-chart
+                [view]="[1300,380]"
+                [results]="teams_total_stats"
+                [xAxisLabel]="'Time'"
+                [legendTitle]="'Legend'"
+                [yAxisLabel]="'Points'"
+                [showXAxisLabel]="true"
+                [showYAxisLabel]="true"
+                [legend]="true"
+                [xAxis]="true"
+                [yAxis]="true">
+            </ngx-charts-line-chart>
+        </div>
+    </mat-expansion-panel>
+    
+    <!-- teams_sites_stats -->
+    <mat-expansion-panel class="chart-expansion">
+        <mat-expansion-panel-header>
+            <mat-panel-title><h2 class="title">Site Points</h2></mat-panel-title>
+            <mat-panel-description></mat-panel-description>
+        </mat-expansion-panel-header>
+        <div class="expansion-context">
+            <ngx-charts-line-chart
+                [view]="[1300,380]"
+                [results]="teams_sites_stats"
+                [xAxisLabel]="'Time'"
+                [legendTitle]="'Legend'"
+                [yAxisLabel]="'Points'"
+                [showXAxisLabel]="true"
+                [showYAxisLabel]="true"
+                [legend]="true"
+                [xAxis]="true"
+                [yAxis]="true">
+            </ngx-charts-line-chart>
+        </div>
+    </mat-expansion-panel>
+    
+    <!-- teams_strategy_stats -->
+    <mat-expansion-panel class="chart-expansion">
+        <mat-expansion-panel-header>
+            <mat-panel-title><h2 class="title">Strategy Points</h2></mat-panel-title>
+            <mat-panel-description></mat-panel-description>
+        </mat-expansion-panel-header>
+        <div class="expansion-context">
+            <ngx-charts-line-chart
+                [view]="[1300,380]"
+                [results]="teams_strategy_stats"
+                [xAxisLabel]="'Time'"
+                [legendTitle]="'Legend'"
+                [yAxisLabel]="'Points'"
+                [showXAxisLabel]="true"
+                [showYAxisLabel]="true"
+                [legend]="true"
+                [xAxis]="true"
+                [yAxis]="true">
+            </ngx-charts-line-chart>
+        </div>
+    </mat-expansion-panel>
+    
+    <!-- teams_growth_stats -->
+    <mat-expansion-panel class="chart-expansion">
+        <mat-expansion-panel-header>
+            <mat-panel-title><h2 class="title">Growth Points</h2></mat-panel-title>
+            <mat-panel-description></mat-panel-description>
+        </mat-expansion-panel-header>
+        <div class="expansion-context">
+            <ngx-charts-line-chart
+                [view]="[1300,380]"
+                [results]="teams_growth_stats"
+                [xAxisLabel]="'Time'"
+                [legendTitle]="'Legend'"
+                [yAxisLabel]="'Points'"
+                [showXAxisLabel]="true"
+                [showYAxisLabel]="true"
+                [legend]="true"
+                [xAxis]="true"
+                [yAxis]="true">
+            </ngx-charts-line-chart>
+        </div>
+    </mat-expansion-panel>
+    
+    <!-- teams_transfer_stats -->
+    <mat-expansion-panel class="chart-expansion">
+        <mat-expansion-panel-header>
+            <mat-panel-title><h2 class="title">Transfer Points</h2></mat-panel-title>
+            <mat-panel-description></mat-panel-description>
+        </mat-expansion-panel-header>
+        <div class="expansion-context">
+            <ngx-charts-line-chart
+                [view]="[1300,380]"
+                [results]="teams_transfer_stats"
+                [xAxisLabel]="'Time'"
+                [legendTitle]="'Legend'"
+                [yAxisLabel]="'Points'"
+                [showXAxisLabel]="true"
+                [showYAxisLabel]="true"
+                [legend]="true"
+                [xAxis]="true"
+                [yAxis]="true">
+            </ngx-charts-line-chart>
+        </div>
+    </mat-expansion-panel>
+</div>
+
+
+
+
+
+
+
+
+

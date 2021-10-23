@@ -1,0 +1,47 @@
+<div class="teams">
+    <div class="team-rows" *ngFor="let team of teams">
+        <div class="rank">
+            <h2 class="rank-text">
+                #{{team.rank}}
+            </h2>
+        </div>
+        <mat-expansion-panel class="team-expansion">
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    <h2 class="team-names">
+                        {{team.name}}
+                    </h2>
+                </mat-panel-title>
+                <mat-panel-description>
+                    <h2 class="team-points">
+                        {{team.points}} Points 
+                    </h2>
+                </mat-panel-description>
+              </mat-expansion-panel-header>
+              <div class="expansion-text">
+                <div class="members-list">
+                    <span class="members-title">Members </span>
+                    <div *ngFor="let member of team.members">
+                        <span class="member-usernames">{{member.username}}<span *ngIf="member.virtual"> (Virtual)</span></span>
+                    </div>
+                </div>
+                <div class="strategy">
+                    <span class="strategy-title">
+                        Strategy Selected 
+                    </span> 
+                    <span class="strategy-text">
+                        {{team.strategy_selected}}
+                    </span>
+                </div>
+                <div class="contact">
+                    <span class="contact-title">
+                        Contact  
+                    </span>
+                    <span class="contact-text">
+                        {{team.contact}}
+                    </span>
+                </div>
+              </div>
+        </mat-expansion-panel>
+    </div>
+</div>

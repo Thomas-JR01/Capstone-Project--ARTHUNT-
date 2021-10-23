@@ -1,0 +1,23 @@
+<div id="component">
+    <h2 mat-dialog-title id="title">Add Member</h2>
+
+    <div class="input" mat-dialog-content>
+        <mat-form-field appearance="fill">
+            <mat-label>Username</mat-label>
+            <input matInput [(ngModel)]="data.username" maxlength="16" autocomplete="off">
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Member Type</mat-label>
+            <mat-select [(ngModel)]="data.virtual">
+                <mat-option value="false">Field</mat-option>
+                <mat-option value="true">Virtual</mat-option>
+            </mat-select>
+        </mat-form-field>
+    </div>
+    
+    <mat-dialog-actions>
+        <button id="cancel-btn" (click)="onNoClick()">Cancel</button>
+        |
+        <button id="add-btn" [mat-dialog-close]="data">Add</button>
+    </mat-dialog-actions>
+</div>

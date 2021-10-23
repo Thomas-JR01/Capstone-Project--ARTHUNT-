@@ -1,0 +1,55 @@
+[{
+    "_id": {
+        "$oid": "61174704f407c93f1c92c4d2"
+    },
+    "name": "Test",
+    "description": "This is the test strategy",
+    "code_file": "./game/strategies/test.js",
+	"active": false,
+	"point_gain": 100
+},{
+    "_id": {
+        "$oid": "61174704f407c93f1c92c4d3"
+    },
+    "name": "Balanced",
+    "description": "Sourcing the strengths and weaknesses of 'Slow and Steady' & 'Fast and Furious', this strategy creates a more balanced experience where points and time are weighted equally. This means that teams that employ this strategy won’t be particularly good at either one, but will have less risk if their strategy breaks down. The app will record these teams time and points in case they spend too much time on a site or answer too many questions.",
+    "code_file": "./game/strategies/balanced.js",
+	"active": true,
+	"point_gain": 100
+},{
+    "_id": {
+        "$oid": "61174704f407c93f1c92c4d4"
+    },
+    "name": "Big Numbers",
+    "description": "Instead of focusing on flat numbers like the slow and steady on, this strategy is more centered around targeting sites with a higher growth ratio. Teams with this strategy can pick out sites with high growth rates, visit other sites while the number on the site gets larger, then visit that site for a large payout. The app will record a pattern of visiting lower ratio sites then hitting a higher ratio site once it gets more valuable. Effectiveness of this strategy will be determined by time between each high ratio site and the points gained from them, shorter time between each site and higher points per high ratio site.",
+    "code_file": "./game/strategies/big_numbers.js",
+	"active": true,
+	"point_gain": 100
+},{
+    "_id": {
+        "$oid": "61174704f407c93f1c92c4d5"
+    },
+    "name": "Fast and Furious",
+    "description": "This strategy is the polar opposite of 'Slow and Steady', focusing on teams moving from one site to another quickly and answering as few questions as possible. It also requires the app to record the amount of time between sites and the amount of points, as the shorter the amount of time and lower amount of points per side will determine teams chances of success.",
+    "code_file": "./game/strategies/fast_and_furious.js",
+	"active": true,
+	"point_gain": 100
+},{
+    "_id": {
+        "$oid": "61174704f407c93f1c92c4d6"
+    },
+    "name": "Isolation",
+    "description": "Focusing on isolating yourself from the rest of the game, the strategy relies on moving away from other players in the game to hog all the surrounding sites for yourself, preventing teams from visiting sites other teams have attempted. Once a site has been attempted the value of that site diminishes, so visiting as many untapped sites as possible will help your team score tremendously. Additionally, isolated areas already have higher point totals than normal further incentivizing teams to take this route. The app will record distance from other teams (based on teams previous site visit), as well as how many of the sites a team visits with the boosted point totals.",
+    "code_file": "./game/strategies/isolation.js",
+	"active": true,
+	"point_gain": 100
+},{
+    "_id": {
+        "$oid": "61174704f407c93f1c92c4d7"
+    },
+    "name": "Slow and Steady",
+    "description": "This strategy revolves around teams spending as much time at each site to gain as many points as possible per site. This strategy, and the two preceding it, is very simple and only requires the app to record how long teams spend between each site and how many points they get per site. The longer the time between sites and the higher the points generated per site determine how effectively teams are following this strategy.",
+    "code_file": "./game/strategies/slow_and_steady.js",
+	"active": true,
+	"point_gain": 100
+}]

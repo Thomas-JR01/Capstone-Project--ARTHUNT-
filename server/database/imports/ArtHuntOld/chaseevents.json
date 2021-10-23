@@ -1,0 +1,134 @@
+{
+	"_id": {
+		"$oid": "605a83daf2e0ae128c081abc"
+	},
+	"name": "Demo",
+	"date": {
+		"$date": "2021-03-24T00:00:00.000Z"
+	},
+	"location": {
+		"$oid": "5a4cc9ed0a2b2a5b498145be"
+	},
+	"base_lat": -27.4761316,
+	"base_long": 153.0284679,
+	"base_easting": 1096212,
+	"base_northing": 6946321,
+	"participants": "Demo",
+	"coordinator": "George Hickey",
+	"start_time": "08:00",
+	"status": "stopped",
+	"registration": "allowed",
+	"duration": 150,
+	"minutes_elapsed": 3,
+	"notes": null,
+	"min_starting_points": 50,
+	"max_starting_points": 120,
+	"event_sites_average_points": 0,
+	"total_site_points": 0,
+	"maxSiteTotalPoints": 10000,
+	"growth_rate": {
+		"max": 6,
+		"min": 2,
+		"base": 3,
+		"density": 2,
+		"distance": 2
+	},
+	"points_distribution": {
+		"title": 5,
+		"year": 5,
+		"artist": 5,
+		"close_up": 20,
+		"theme": 40,
+		"site": 25
+	},
+	"strategy_bonus": 3,
+	"number_of_choices": 10,
+	"penalty_rate": 100,
+	"points_transfer_open": true,
+	"leaderboard_open": true,
+	"submissions_open": true,
+	"registration_open": true,
+	"eventSitesUpdateFrequency": 60,
+	"time_bonus_accrual_rate": 3,
+	"close_up_points": 60,
+	"theme_points": 120,
+	"first_mover_points": 100,
+	"turns_elapsed": 1,
+	"contacts": [
+		{
+			"name": "GSB",
+			"phone": "3138 1057",
+			"_id": {
+				"$oid": "605a83daf2e0ae128c081abd"
+			}
+		}
+	],
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "609c9cd8b7d1281428064318"
+	},
+	"name": "DISC 2021",
+	"date": {
+		"$date": "2021-05-16T00:00:00.000Z"
+	},
+	"location": {
+		"$oid": "5a4cca070a2b2a5b498145bf"
+	},
+	"base_lat": -35.280723,
+	"base_long": 149.135205,
+	"base_easting": 694188,
+	"base_northing": 6093735,
+	"participants": "DISC",
+	"coordinator": "John Bensley",
+	"start_time": "08:00",
+	"status": "stopped",
+	"registration": "allowed",
+	"duration": 150,
+	"minutes_elapsed": 123,
+	"notes": null,
+	"min_starting_points": 50,
+	"max_starting_points": 120,
+	"event_sites_average_points": 129.3090909090909,
+	"total_site_points": 7112,
+	"maxSiteTotalPoints": 10000,
+	"growth_rate": {
+		"max": 6,
+		"min": 2,
+		"base": 3,
+		"density": 2,
+		"distance": 2
+	},
+	"points_distribution": {
+		"title": 5,
+		"year": 5,
+		"artist": 5,
+		"close_up": 20,
+		"theme": 40,
+		"site": 25
+	},
+	"strategy_bonus": 3,
+	"number_of_choices": 10,
+	"penalty_rate": 100,
+	"points_transfer_open": true,
+	"leaderboard_open": true,
+	"submissions_open": true,
+	"registration_open": true,
+	"eventSitesUpdateFrequency": 60,
+	"time_bonus_accrual_rate": 3,
+	"close_up_points": 60,
+	"theme_points": 120,
+	"first_mover_points": 100,
+	"turns_elapsed": 41,
+	"contacts": [
+		{
+			"name": "GSB",
+			"phone": "3138 1057",
+			"_id": {
+				"$oid": "609c9cd8b7d1281428064319"
+			}
+		}
+	],
+	"__v": 0
+}

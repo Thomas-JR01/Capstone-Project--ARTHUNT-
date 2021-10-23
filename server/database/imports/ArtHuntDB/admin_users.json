@@ -1,0 +1,8 @@
+[{
+  "_id": {
+    "$oid": "60fcf47e4f1f95ff66142070"
+  },
+  "username": "GeorgeH",
+  "password_hash": "$2a$10$xzeFjaXamIhwFxqvE2OujeA7Dy0ZC9JpxbsbQZdH9qHhqmb/mo9gW",
+  "permission": "superadmin"
+}]

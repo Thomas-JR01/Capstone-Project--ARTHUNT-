@@ -1,0 +1,17 @@
+{
+	"_id": {
+		"$oid": "5b93afbb6ba41a206c93c657"
+	},
+	"email": "user@email.com",
+	"first_name": "Test",
+	"last_name": "User",
+	"password": "$2b$10$LxlSmng6Cq8RqHI.8sbP../K5DK/B7z34vuO0Jek5rVPSJ2vEM/dO",
+	"password_conf": "password",
+	"role": "admin",
+	"picture": "placeholder",
+	"notes": "",
+	"date_added": {
+		"$date": "2018-09-08T11:17:15.510Z"
+	},
+	"__v": 0
+}

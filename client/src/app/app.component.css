@@ -1,0 +1,12 @@
+.container {
+    font-family: Montserrat;
+    margin: 0 auto 20px;
+    padding: 0 7.5vw;
+    max-width: min(100vw, 400px);
+    max-height: min(100vh, 800px);
+    align-items: center;
+}
+
+.mat-progress-spinner circle, .mat-spinner circle {
+    stroke: white;
+}

@@ -1,0 +1,33 @@
+<div class="attempts" *ngIf="!attemptSelected">
+    <div class="attempt-rows" *ngFor="let attempt of attempts">
+        <div class="time">
+            <h2 class="time-text">
+                {{attempt.timestamp}}
+            </h2>
+        </div>
+        <button class="attempt-btns" type="button" (click)="markAttempt(attempt)">
+          <span>
+            Site {{attempt.site_num}}
+          </span>
+          <span>
+              {{attempt.team_sent}}
+          </span>
+        </button>
+        <div class="status" [ngStyle]="attempt.marked ? {'background-color': '#93c47dff'} : {'background-color': '#e69138ff'}">
+            <h2 class="status-text">
+                {{attempt.marked ? "Complete" : "Pending"}}
+            </h2>
+        </div>
+    </div>
+</div>
+
+<div id="no-attempts" *ngIf="attempts.length === 0">
+    <h2 id="no-attempts-text">
+        No attempts yet... 
+        <mat-icon id="no-attempts-icon">sentiment_dissatisfied</mat-icon>
+    </h2>
+</div>
+
+<div *ngIf="attemptSelected">
+  <app-mark-attempt [attempt]="attempt" (returnToAttempts)="returned()"></app-mark-attempt>
+</div>

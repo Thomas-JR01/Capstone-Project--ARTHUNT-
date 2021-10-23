@@ -1,0 +1,66 @@
+<!-- <label class="dashboard-title-main">Dashboard</label> -->
+
+<div class="table-div-element">
+    <table>
+        <tr>
+
+            <th>
+                <div class="dashboard-item-status" [ngStyle]="eventStatus === eventStateOption.Active ? {'border-color': '#93c47d'} : {'border-color': 'lightcoral'}">
+                    <label class="dashboard-title">Status</label>
+                    <table>
+                        <tr>
+                            <th>
+                                <button class="status-button-start" (click)="setEventState(eventStateOption.Active)">Start</button><br>
+                                <button class="status-button-stop" (click)="setEventState(eventStateOption.Paused)">Stop</button><br>
+                                <button class="status-button-reset" hidden>Reset</button><br>
+                            </th>
+                            <th>
+                                <label class="event-status-label">{{eventStatus}}</label>
+                            </th>
+                        </tr>
+                    </table>
+                </div>
+            </th>
+
+            <th>
+                <div class="dashboard-item-eventinfo">
+                    <label class="dashboard-title">Event Info</label>
+                    <div class="event-info-labels-group">
+                        <label class="event-eventname-label">Event Name: {{eventTitle}}</label><br>
+                        <label class="event-location-label">Location: {{eventLocation}}</label><br>
+                        <label class="event-teams-label">Teams: {{eventTeamsNo}}</label><br>
+                        <label class="event-participants-label">Participants: {{eventParticipants}}</label><br>
+                        <label class="event-coordinator-label">Coordinator: {{eventCoordinator}}</label><br>
+
+                        <button class="slideshow-button" (click)="openSlideShow()">Slide Show</button>
+                        <button class="qr-button" (click)="openQRCode()">QR Code</button><br>
+                    </div>
+                </div>
+            </th>
+
+            <th>
+                <div class="dashboard-item-timers">
+                    <label class="dashboard-title">Timers</label>
+                    <div class="time-left-timer-div">
+                        <label class="event-time-left-label">Time Left</label>
+                        <br>
+                        <label class="event-time-left-timer-label">{{eventTimeleft()}}</label>
+                    </div>
+                    <div class="round-recovery-timers">
+                        <div class="site-recovery-timer-div">
+                            <label class="event-site-recovery-label">Site Recovery</label>
+                            <br>
+                            <label class="event-site-recovery-timer-label">{{siteRecoveryTimer()}}</label>
+                        </div>
+                        <div class="round-timer-div">
+                            <label class="event-round-label">Round Timer</label>
+                            <br>
+                            <label class="event-round-timer-label">{{roundTimer()}}</label>
+                        </div>
+                    </div>
+                </div>
+            </th>
+
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,16 @@
+<div *ngIf="!teamSelected" class="select-team">
+	<h2 id="title">Chat list</h2>
+	<div class="team-btns">
+		<button *ngFor="let team of teamsList" class="team-btn" type="button" (click)="getMessages(team?.name)">
+			{{team?.name}}
+			</button>
+	</div>
+</div>
+
+<div *ngIf="teamSelected">
+	<app-text [messages]="messages"></app-text>
+	<form [formGroup]="SendMessageForm" class="text" (ngSubmit)="sendMessage()">
+		<input class="message" [attr.disabled]="inputDisabled ? '' : null" formControlName="message" autocomplete="off" maxlength="640">
+		<button class="send-btn" type="submit" [attr.disabled]="this.SendMessageForm.get('message')?.value === null ? '' : null">Send</button>
+	</form>
+</div>

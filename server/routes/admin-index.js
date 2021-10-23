@@ -1,0 +1,56 @@
+var express = require('express');
+var router = express.Router();
+
+const approveSite = require('./admin_api/approve_site-route');
+const adminLogin = require('./admin_api/login-route');
+const createEvent = require('./admin_api/create_event-route');
+const deleteEvent = require('./admin_api/delete_event-route');
+const editSiteTemplate = require('./admin_api/edit_site_template-route');
+const eventSites = require('./admin_api/event_sites-route');
+const getEventData = require('./admin_api/event_data-route');
+const getLocations = require('./admin_api/locations-route');
+const getMessages = require('./admin_api/messages-route');
+const getTeamData = require('./admin_api/team_details-route');
+const getTeamLocations = require('./admin_api/team_locations-route');
+const getSitesInfo = require('./admin_api/sites_info-route');
+const listEvents = require('./admin_api/list_events-route');
+const listImages = require('./admin_api/list_images-route');
+const listStrategies = require('./admin_api/strategies-route');
+const registerAdmin = require('./admin_api/register-route');
+const siteAttempts = require('./admin_api/site_attempts-route');
+const siteTemplates = require('./admin_api/site_templates-route');
+const saveImage = require('./admin_api/save_image-route');
+const sendMessage = require('./admin_api/send_message-route');
+const setEventState = require('./admin_api/set_event_state-route');
+const statistics = require('./admin_api/statistics-route');
+const subscribeAttempts = require('./admin_api/subscribe_site_attempts-route').router;
+const subcribeMessages = require('./admin_api/subscribe_messages-route').router;
+const updateEventSite = require('./admin_api/update_event_site-route');
+
+router.use("/approve-site", approveSite);
+router.use("/create-event", createEvent);
+router.use("/delete-event", deleteEvent);
+router.use("/edit-site-template", editSiteTemplate);
+router.use("/event-data", getEventData);
+router.use("/event-sites", eventSites);
+router.use("/list-events", listEvents);
+router.use("/list-images", listImages);
+router.use("/locations", getLocations);
+router.use("/login", adminLogin);
+router.use("/site-attempts", siteAttempts);
+router.use("/site-templates", siteTemplates);
+router.use("/team-details", getTeamData);
+router.use("/team-locations", getTeamLocations);
+router.use("/messages", getMessages);
+router.use("/register", registerAdmin)
+router.use("/save-image", saveImage);
+router.use("/send-message", sendMessage);
+router.use("/sites-info", getSitesInfo);
+router.use("/set-event-state", setEventState);
+router.use("/statistics", statistics);
+router.use("/strategies", listStrategies);
+router.use("/subscribe-attempts", subscribeAttempts);
+router.use("/subscribe-messages", subcribeMessages);
+router.use("/update-event-site", updateEventSite);
+
+module.exports = router;

@@ -1,0 +1,96 @@
+<div id="return">
+    <button id="return-btn" type="button" (click)="return()"><mat-icon id="return-icon">arrow_back</mat-icon><h2 id="return-text">Return</h2></button>
+</div>
+<div class="attempt">
+    <span id="attempt-info">
+        Site {{attempt.site_num}} attempt by {{attempt.team_sent}}
+    </span>
+    <div id="label">
+        <span>Topic</span>
+        <span>Team Answer</span>
+        <span>Actual Answer</span>
+        <span>Points</span>
+    </div>
+    <div class="answers">
+        <span class="single-answers">
+            <span class="answer-titles">
+                Artist
+            </span>
+            <span>
+                {{attempt.answers_given.artist}}
+            </span>
+            <span>
+                {{attempt.artist}}
+            </span>
+            <span class="answer-points" [ngStyle]="attempt.points_earned.artist_amt > 0 ? {'color': '#93c47dff'} : {'color': '#e69138ff'}">
+                {{attempt.points_earned.artist_amt}}
+            </span>
+        </span>
+
+        <span class="single-answers">
+            <span class="answer-titles">
+                Closeup 
+            </span>
+            <div>
+                <img class="img" width=200px src='data:image/png;base64,{{closeupImg}}'/>
+            </div>
+            <div>
+                <img class="img" width=200px src='data:image/png;base64,{{closeupImgActual}}'/>
+            </div>
+            <span class="answer-points" [ngStyle]="attempt.points_earned.closeup_amt > 0 ? {'color': '#93c47dff'} : {'color': '#e69138ff'}">
+            {{attempt.points_earned.closeup_amt}}
+            </span>
+        </span>
+
+        <span class="single-answers">
+            <span class="answer-titles">
+            Theme                       
+            </span>
+            <span>{{attempt.answers_given.theme}}</span>
+            <span>{{attempt.theme}}</span>
+            <span class="answer-points" [ngStyle]="attempt.points_earned.theme_amt > 0 ? {'color': '#93c47dff'} : {'color': '#e69138ff'}">
+            {{attempt.points_earned.theme_amt}} 
+            </span> 
+        </span>
+
+        <span class="single-answers">
+            <span class="answer-titles">
+                Title    
+            </span>
+            <span>{{attempt.answers_given.title}}</span>
+            <span>{{attempt.title}}</span>
+            <span class="answer-points" [ngStyle]="attempt.points_earned.title_amt > 0 ? {'color': '#93c47dff'} : {'color': '#e69138ff'}">
+            {{attempt.points_earned.title_amt}}
+            </span>
+        </span>
+
+        <span class="single-answers">
+            <span class="answer-titles">
+                Year
+            </span>
+            <span>{{attempt.answers_given.year}}</span>
+            <span>{{attempt.year}}</span>
+            <span class="answer-points" [ngStyle]="attempt.points_earned.year_amt > 0 ? {'color': '#93c47dff'} : {'color': '#e69138ff'}">
+            {{attempt.points_earned.year_amt}}
+            </span>
+        </span>
+
+        <span class="single-answers">
+            <span class="answer-titles">
+                Team Photo 
+            </span>
+            <div>
+                <img class="img" width=200px src='data:image/png;base64,{{teamImg}}'/>
+            </div>
+            <div>
+                <img class="img" width=200px src='data:image/png;base64,{{mainImg}}'/>
+            </div>
+            <span [ngStyle]="attempt.points_earned.site_amt > 0 ? {'color': '#93c47dff'} : {'color': '#e69138ff'}">{{ attempt.points_earned.site_amt }}</span>
+        </span>
+
+    </div>
+    <div id="submit" *ngIf="!attempt.marked">
+        <button id="approve-btn" type="button" (click)="markSite(-1)"><h2 id="approve-text">Approve</h2></button>
+        <button id="reject-btn" type="button" (click)="markSite(0)"><h2 id="reject-text">Reject</h2></button>
+    </div>
+</div>

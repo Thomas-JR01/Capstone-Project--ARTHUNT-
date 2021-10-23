@@ -1,0 +1,23 @@
+<div id="container">
+    <h2 id="title">Transfer Points</h2>
+
+    <div class="input" mat-dialog-content>
+        <mat-form-field appearance="fill">
+            <mat-label>Recipient</mat-label>
+            <mat-select [(ngModel)]="data.recipient">
+                <mat-option *ngFor="let team of data.teams" [value]="team">{{team.name}} - {{team.points}} points</mat-option>
+            </mat-select>
+        </mat-form-field>
+    
+        <mat-form-field appearance="fill">
+            <mat-label>Transfer Points</mat-label>
+            <input matInput [(ngModel)]="data.pointsToTransfer" autocomplete="doNotAutoComplete">
+        </mat-form-field>
+    
+        <mat-dialog-actions>
+            <button id="cancel-btn" (click)="onNoClick()">Cancel</button>
+            |
+            <button id="transfer-btn" [mat-dialog-close]="data">Transfer</button>
+        </mat-dialog-actions>
+    </div>
+</div>

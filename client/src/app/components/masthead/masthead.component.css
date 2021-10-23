@@ -1,0 +1,57 @@
+.main {
+    top:0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #3A3A3A;
+}
+
+.mat-toolbar.mat-primary {
+    text-align: center;
+    background-color: #3A3A3A;
+    padding: 0.5em 0.5em 0 0.5em;
+}
+
+.title-block {
+    display: grid;
+    margin-top: 1em;
+    width: 100%;
+    grid-auto-rows: 40%;
+}
+
+#app-title {
+    color: #588EFF;
+    font-size: 1.5em;
+}
+
+#event-title {
+    font-size: 0.7em;
+}
+
+span {
+    margin: auto;
+}
+
+button {
+    background-color: #3A3A3A;
+    border-width: 0;
+}
+
+#notifications-btn:hover > #return-icon {
+    color: grey;
+}
+
+#home-btn:hover > #home-icon {
+    color: grey;
+}
+
+mat-icon {
+    color: white;
+}
+
+#divider {
+    height: 2px;
+    border-width: 0;
+    background-color: #525252;
+    width: 75%;
+}

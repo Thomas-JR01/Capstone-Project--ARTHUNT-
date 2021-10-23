@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "610e0e2df99c1224b7c3b25d"
+  },
+  "event": 1,
+  "site_num": 0,
+  "points_earned": {
+    "site_amt": 25,
+    "title_amt": 5,
+    "theme_amt": 40,
+    "closeup_amt": 20,
+    "artist_amt": 5,
+    "year_amt": 5
+  },
+  "answers_given": {
+    "title": "N1",
+    "theme": "T1",
+    "closeup": "sample_ti1.png",
+    "artist": "A1",
+    "year": 2001
+  },
+  "team_img": "test.png",
+  "notes": "Help me I'm trapped in this game!",
+  "marked": false,
+  "timestamp": "17:12:30",
+  "team_sent": 0
+}]

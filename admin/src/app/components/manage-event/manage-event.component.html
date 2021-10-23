@@ -1,0 +1,99 @@
+<!-- Header -->
+<section>
+    
+    <table class="header-table">
+        <tr>
+            <th>
+                <table class="events-title">
+                    <tr></tr>
+                    <th> <h1 class="title">ArtHunt</h1> </th>
+                    <th> <h1 class="title-subtitle">{{ eventTitle }}</h1> </th>
+                </table>
+            </th>
+            <th class="break"></th>
+            <th>
+                <div class="session-details">
+                    <h6 class="session-detail">Logged in as {{ adminName }}</h6>
+                    <h6 class="session-detail">Last Refresh: {{ date }}</h6>
+                </div>
+            </th>
+        </tr>
+    </table>
+
+</section>
+
+<section>
+
+    <table class="main-table">
+        <tr>
+
+            <!-- Side Bar Menu -->
+        <th class="left-side"> 
+            <div class="sidebar-menu-div">
+
+                <label class="sidebar-menu-title">Menu</label>
+        
+                <div class="sidebar-menu-buttons">
+        
+                    <button class="sidebar-menu-button" type="button" (click)="selected=menuOption.Map">Event Map</button><br>
+                    <button class="sidebar-menu-button" type="button" (click)="selected=menuOption.Review">Review Attempts</button><br>
+                    <button class="sidebar-menu-button" type="button" (click)="selected=menuOption.Teams">Teams</button><br>
+                    <button class="sidebar-menu-button" type="button" (click)="selected=menuOption.Communications">Communications</button><br>
+                    <button class="sidebar-menu-button" type="button" (click)="selected=menuOption.Statistics">Statistics</button><br>
+                    <button class="sidebar-menu-button" type="button" (click)="selected=menuOption.Sites">Sites</button><br>
+                    <button class="sidebar-menu-button" id="select-btn" type="button" (click)="gotoEventSelect()">Select Event</button><br>
+        
+                </div>
+        
+                <button class="sidebar-menu-logout-button"  type="button" (click)="logout()">Logout</button>
+        
+            </div>
+        </th>
+
+        <th class="right-side">
+            <table>
+                
+                <!-- Dashboard -->
+                <tr>
+                    <div class="dashboard-div">
+                        <app-dashboard [eventID]="this.eventId"></app-dashboard>
+                    </div>
+                </tr>
+
+
+                <!-- Selcted Content -->
+                <tr>
+                    <div class="selected-title">
+                        <h2 id="selected-title-text">{{selected}}</h2>
+                    </div>
+                    <div [ngSwitch]="selected" class="selected-content-div">
+                        <div id="no-option-div" *ngSwitchCase="menuOption.None">
+                            <div id="no-option">
+                                <h2 id="no-option-text">
+                                    First, there was nothing... 
+                                </h2>
+                            </div>
+                        </div>
+                        <app-map *ngSwitchCase="menuOption.Map">Viewing the map...</app-map>
+                        <app-review-attempts *ngSwitchCase="menuOption.Review">Reviewing attempts...</app-review-attempts>
+                        <app-teams *ngSwitchCase="menuOption.Teams"></app-teams>
+                        <app-communications *ngSwitchCase="menuOption.Communications">Messaging the teams...</app-communications>
+                        <app-statistics *ngSwitchCase="menuOption.Statistics">Processing the stats...</app-statistics>
+                        <app-event-site-info *ngSwitchCase="menuOption.Sites">Perusing the event sites...</app-event-site-info>
+                        <app-edit-event *ngSwitchCase="menuOption.Edit">Making changes to the event...</app-edit-event>
+                    </div>
+                </tr>
+
+            </table>
+        </th>
+
+        </tr>
+
+        
+
+    </table>
+
+</section>
+
+
+

@@ -1,0 +1,39 @@
+<div class="container">
+    <section>
+        <div class="events-title">
+            <h1 class="title">ArtHunt</h1>
+            <h1 class="title-subtitle">Events</h1>
+        </div>
+    </section>
+
+    <form [formGroup]="admincreateForm" class="eventcreate-form" (ngSubmit)="createAdmin()">
+
+        <section class="new-event-details-section">
+    
+            <label class="new-event-details-label">New Admin Details</label><br><br><br>
+    
+            <div class="form-items">
+
+                <label class="input-label">Admin Type</label>
+                <select class="input-details" name="location-select" formControlName="AdminType" required>
+                    <option value="SA">Admin</option>
+                    <option value="A">Event Host</option>
+                </select>
+    
+                <label class="input-label">Admin Username</label>
+                <input class="input-details" spellcheck="false" type="text" formControlName="Username" required/>
+    
+                <label class="input-label">Admin Password</label>
+                <input class="input-details" spellcheck="false" type="password" formControlName="Password" required/>
+    
+            </div>
+            
+        </section>
+    
+        <div class="create-event-div">
+            <button class="create-button" type="submit">Create Admin</button>
+        </div>
+
+    </form>
+
+</div>

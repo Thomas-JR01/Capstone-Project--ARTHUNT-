@@ -1,0 +1,10 @@
+<!--Header Stuff-->
+<div class="header"><label class="title">Strategies</label></div>
+
+
+<!--Body Stuff-->
+<div class="body">
+    <div class="site-list-items" *ngFor="let strategy of StrategyDisplay_Info">
+        <app-strategy-item [StrategyInfo]="strategy"></app-strategy-item>
+    </div>
+</div>

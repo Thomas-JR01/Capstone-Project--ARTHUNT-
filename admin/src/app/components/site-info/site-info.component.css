@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    margin: 2em auto 32px;
+    padding: 0 16px;
+    max-width: 960px;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Page Title */
+.events-title {
+    font-family: Montserrat;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.title {
+    margin: 0%;
+    font-size: min(18vw, 72px);
+    color: #588EFF;
+    display: inline-block;
+}
+
+.title-subtitle {
+    padding-left: .3em;
+    margin: 0%;
+    font-size: min(18vw, 72px);
+    color: #686868;
+    display: inline-block;
+}
+
+.sites-div {
+    background-color: #e6e6e6;
+    text-align: center;
+    padding: 50px;
+    padding-top: 30px;
+    border-radius: 3rem;
+}
+
+.site-list-headers {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+table {
+    text-align: center;
+    display: inline-block;
+}
+
+th {
+    width:auto;
+    text-align: center;
+    width:300px;
+}
+
+
+
+.back-button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #686868;
+    background-color: #e6e6e6;
+    cursor: pointer;  
+    border-radius: .5em;
+    border: hidden;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    margin-top: .5em;
+    
+}

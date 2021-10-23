@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "6104eb0763999985c61f6eae"
+  },
+  "collection": "teams",
+  "sequence_value": 1
+},{
+  "_id": {
+    "$oid": "6104eb1463999985c61f6eb0"
+  },
+  "collection": "events",
+  "sequence_value": 1
+}]

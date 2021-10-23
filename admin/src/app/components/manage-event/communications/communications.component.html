@@ -1,0 +1,25 @@
+
+<div class="container">
+    <div class="chat-options">
+        <button class="option" *ngFor="let recipient of recipients" (click)="loadMessages(recipient)">
+            <span class="recipient-text">{{recipient}}</span>
+        </button>
+    </div>
+    <table class="chat-window" *ngIf="recipientSelected">
+        <tr id="chat-log">
+            <td valign="top">
+                <app-chat-window id="chat-window" [messages]="messages" [recipient]="recipient"></app-chat-window>
+            </td>
+        </tr>
+        <tr>
+            <td valign="bottom">
+                <form [formGroup]="messageForm" class="message-form" (ngSubmit)="sendMessage()">
+                    <div class="form-group">
+                        <input id="message-input" type="text" placeholder="Type a message..." formControlName="message" autocomplete="off" maxlength="640"/>
+                    </div>
+                    <button id="send-btn" type="submit" [attr.disabled]="messageForm.get('message')?.value === null ? '' : null">Send</button>
+                </form>                
+            </td>
+        </tr>
+    </table>
+</div>

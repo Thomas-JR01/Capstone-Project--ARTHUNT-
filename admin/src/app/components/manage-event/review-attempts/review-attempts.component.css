@@ -1,0 +1,65 @@
+.attempts {
+    display: grid;
+    grid-gap: 1em;
+}
+
+.attempt-rows {
+    display: grid;
+    grid-template-columns: 2fr 10fr 3fr;
+    width: 85%;
+}
+
+.attempt-btns {
+    font-size:1.2em;
+    background-color: #d7d7d7;
+    border-radius: 0.5em;
+    padding: 1rem;
+    border-width: 0;
+}
+
+.attempt-btns:hover {
+    background-color: #d1d1d1;
+}
+
+#no-attempts {
+    display: grid;
+    place-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+#no-attempts-text {
+    color: #b4b4b4;
+    background: #d7d7d7;
+    font-size: 1em;
+    border-radius: 1em;
+    padding: 2.5em;
+}
+
+#no-attempts-icon {
+    font-size: 1.5em;
+}
+
+.time {
+    padding: 1rem;
+}
+
+.time-text {
+    margin: 0;
+    font-size: 1.2em;
+    color: #b8b8b8;
+}
+
+.status {
+    padding: 1rem;
+    background-color: #93c47dff;
+    border-radius: 0.5em;
+    margin-left: 2em;
+    height: 1.5rem;
+}
+
+.status-text {
+    margin: 0;
+    font-size: 1.2em;
+    padding: 0;
+}

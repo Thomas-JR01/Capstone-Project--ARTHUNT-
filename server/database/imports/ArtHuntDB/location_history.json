@@ -1,0 +1,18 @@
+[{
+	"_id": {
+        "$oid": "615748292407c9ef1c9dc4d3"
+    },
+	"event": 1,
+	"team_id": 1,
+	"old_value": {
+		"lat": -35.2774,
+		"long": 149.1254
+	},
+	"new_value": {
+		"lat": -35.2775,
+		"long": 149.1256
+	},
+	"total_distance": 20,
+	"reason": "visit",
+	"timestamp": "17:12:30"
+}]

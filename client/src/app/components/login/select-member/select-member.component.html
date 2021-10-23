@@ -1,0 +1,11 @@
+<div class="title">
+    <div id="greeting">Welcome {{teamName}}</div>
+    <div id="instruction">Select username</div>
+</div>
+
+<div class="member-names" *ngFor="let member of members">
+    <button type="button" class="username" (click)="login(member)">
+        {{member.username}}
+        <mat-icon id="virtual-icon" *ngIf="member.virtual">computer</mat-icon>
+    </button>
+</div>

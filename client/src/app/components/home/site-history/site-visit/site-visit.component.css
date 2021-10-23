@@ -1,0 +1,38 @@
+.site-info {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 6em 4em 0 4em;
+}
+
+.result {
+    text-align: center;
+    background-color: #686868;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em 0 3em 0;
+}
+
+#site-num {
+    font-size: 1em;
+    margin: 0;
+}
+
+.answers {
+    display: grid;
+    margin: 1em 0;
+}
+
+.answer {
+    overflow: overlay;
+}
+
+.question {
+    text-align: center;
+    display: grid;
+    background-color: #686868;
+    border-radius: 1em;
+    padding: 1em;
+    grid-template-columns: 2fr 4fr 1fr;
+    grid-gap: 1em;
+    margin-bottom: 1em;
+}

@@ -1,0 +1,29 @@
+[{
+  "_id": 1,
+  "event": 1,
+  "name": "TestGroup01",
+  "contact": "0400000000",
+  "pin": "$2a$10$0Qoq19RL7Th3ZwD7z8YKdeDy2r8UbU5gEIBJ.seZKzBjMam.JKalq",
+  "members": [
+    {
+      "username": "User1",
+      "virtual": false
+    },
+    {
+      "username": "User2",
+      "virtual": false
+    },
+    {
+      "username": "User3",
+      "virtual": true
+    },
+    {
+      "username": "User4",
+      "virtual": false
+    }
+  ],
+  "strategy_selected": "",
+  "points": 100,
+  "team_lat": 0,
+  "team_long": 0
+}]

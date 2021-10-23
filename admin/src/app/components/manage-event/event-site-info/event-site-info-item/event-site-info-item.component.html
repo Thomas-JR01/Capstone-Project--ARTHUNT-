@@ -1,0 +1,46 @@
+<mat-expansion-panel class="team-expansion" (opened)="onOpen_Load()" (closed)="onOpen_Load()">
+    <mat-expansion-panel-header>
+        <mat-panel-title>
+            <h2 class="team-names">
+                {{CurrentSiteInfo_Template?.title}}
+            </h2>
+        </mat-panel-title>
+        <mat-panel-description>
+            <h2 class="team-points">
+                Active: {{CurrentSiteInfo?.active}}
+            </h2>
+        </mat-panel-description>
+    </mat-expansion-panel-header>
+    
+    <div class="expansion-text">
+
+        <table>
+            <tr>
+                <th>
+                    <img  class="main-img" width=150px src='data:image/png;base64,{{IMAGE_main_img}}'/>
+                </th>
+                <th class="form-inputs">
+                    <form [formGroup]="eventSiteForm" class="eventSiteForm-form" (ngSubmit)="updateSite()">
+                        <div class="form-items">
+                            <label class="input-label">Site Active ({{CurrentSiteInfo?.active}}): </label>
+                            <input class="input-details" type="checkbox" formControlName="active">
+                
+                            <label class="input-label">Site Lock ({{CurrentSiteInfo?.locked}}): </label>
+                            <input class="input-details" type="checkbox" formControlName="locked">
+                
+                            <label class="input-label">Site Points ({{CurrentSiteInfo?.total_points}}): </label>
+                            <input class="input-details" type="number" min="0" formControlName="points">
+                
+                            <label class="input-label">Site Growth ({{CurrentSiteInfo?.growth_factor}}): </label>
+                            <input class="input-details" type="number" min="0" formControlName="growth">
+                        </div>
+
+                        <br><button class="update-button" type="submit">Update Site</button><br>
+                        
+                    </form>
+                </th>
+            </tr>
+        </table>
+
+    </div>
+</mat-expansion-panel>

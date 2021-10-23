@@ -1,0 +1,195 @@
+.main {
+    margin-top: 6em;
+    padding-bottom: 6em;
+}
+
+/* Header */
+
+.title {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+/* Site Info Section */
+
+.site-info {
+    background-color: #686868;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: .6em;
+    padding-bottom: .5em;
+    margin-top: 4%;
+    border-radius: .5em;
+    color: white;
+}
+
+th {
+    width:auto;
+    text-align: center;
+    width:300px;
+}
+
+.site-info-label {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+/* Hint Section */
+
+.site-hint {
+    background-color: #686868;
+    padding-left: 1;
+    padding-right: 1;
+    padding-top: .6em;
+    padding-bottom: .5em;
+    margin-top: 4%;
+    border-radius: .5em;
+    color: white;
+    text-align: center;
+}
+
+.site-hint-header, .site-hint-text {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.site-hint-header {
+    margin-bottom: 0;
+}
+
+
+/* Questions Section */
+
+.site-questions {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 12%;
+    color: white;
+    text-align: center;
+    
+}
+
+.site-questions-header {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: .5em;
+}
+
+.site-question {
+    background-color: #686868;
+    padding-left: 1;
+    padding-right: 1;
+    padding-top: .6em;
+    padding-bottom: 1.5em;
+    margin-top: 4%;
+    border-radius: .5em;
+    color: white;
+}
+
+.q-info-label {
+    padding-right: .5em;
+}
+
+.q-info-label, .q-title, .q-year, .q-artist, .q-closeup {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+
+/* Title Q Section */
+
+.q-title {
+    background-color: #7f7f7f;
+    color: white;
+    width: 12em;
+    border-radius: .5em;
+}
+
+
+/* Year Q Section */
+
+.q-year {
+    background-color: #7f7f7f;
+    color: white;
+    width: 8em;
+    border-radius: .5em;
+}
+
+
+/* Artist Q Section */
+
+.q-artist {
+    background-color: #7f7f7f;
+    color: white;
+    width: 10em;
+    border-radius: .5em;
+}
+
+/* Theme Q Section */
+
+.q-theme {
+    background-color: #7f7f7f;
+    color: white;
+    width: 10em;
+    border-radius: .5em;
+}
+
+
+/* Close Up Image Q Section */
+
+.q-closeup {
+    background-color: #7f7f7f;
+    color: white;
+    width: 10em;
+    border-radius: .5em;
+}
+
+
+/* Team Photo Q Section */
+
+.q-teamphoto-h3, input {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+
+input {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.submit-button {
+    background-color: #7f7f7f;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    padding: .25em 1em .25em 1em;
+}
+
+.submit-div {
+    text-align: center;
+    margin-top: 4em;
+}
+
+
+/*TEST STUFF*/
+
+.img-select {
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+}
+
+img {
+    
+    left: 0px;
+    border: 3px solid black;
+    margin-right: .4em;
+}

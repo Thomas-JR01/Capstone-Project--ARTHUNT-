@@ -1,0 +1,46 @@
+#title {
+    color: white;
+    font-size: 2em;
+}
+
+#container {
+    text-align: center;
+    color: white;
+}
+
+mat-label {
+    color: white;
+}
+
+.mat-dialog-content {
+    overflow: hidden;
+}
+
+.mat-dialog-actions {
+    justify-content: center;
+}
+
+.input {
+    display: grid;
+}
+
+#cancel-btn {
+    border-width: 0;
+    background-color: transparent;
+    padding: 0 4vw;
+    color: white;
+    font-size: 1em;
+}
+
+#transfer-btn {
+    border-width: 0;
+    background-color: #3A3A3A;
+    padding: 0 5vw;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+}
+
+#add-btn:hover {
+    background-color: #3A3A3A;
+}

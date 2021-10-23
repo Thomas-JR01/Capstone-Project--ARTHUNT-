@@ -1,0 +1,109 @@
+#return {
+    text-align: left;
+    padding: 0 3em;
+}
+
+#return-btn {
+    background-color: #949494;
+    border-width: 0;
+    border-radius: 0.5em;
+    color: white;
+    padding: 1em 1.5em 1em 1em;
+}
+
+#return-icon {
+    font-size: 1em;
+    height: 1em;
+}
+
+#return-text {
+    display: inline;
+    font-size: 1em;
+    padding-bottom: 1em;
+    margin: 0;
+}
+
+#return-btn:hover {
+    background-color: #848484;
+}
+
+#attempt-info {
+    font-size: 1.5em;
+}
+
+#label {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0.5em auto;
+    background-color: #c4c4c4;
+    border-radius: 0.5em;
+    padding: 1em;
+    width: 70em;
+}
+
+.answers {
+    margin: 0.5em auto;
+}
+
+.single-answers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    padding: 1em;
+    background-color: #cfcfcf;
+    margin: 0.5em auto;
+    border-radius: 0.5em;
+    width: 70em;
+}
+
+img.img {
+    padding: 0;
+}
+
+.answer-points {
+
+}
+
+.img {
+    padding: 1em;
+}
+
+.answer-titles {
+    color: #686868;
+}
+
+#approve-btn {
+    color: white;
+    background-color: #595959ff;
+    border-radius: 1em;
+    border-width: 0;
+    padding: 1em 1.5em;
+    margin: 1em 1em;
+}
+
+#approve-btn:hover{
+    background-color: #525252;
+    color: #ececec;
+}
+
+#approve-text {
+    margin: 0;
+}
+
+#reject-btn {
+    color: white;
+    background-color: #595959ff;
+    border-radius: 1em;
+    border-width: 0;
+    padding: 1em 1.5em;
+    margin: 1em 1em;
+}
+
+#reject-btn:hover{
+    background-color: #525252;
+    color: #ececec;
+}
+
+#reject-text {
+    margin: 0;
+}

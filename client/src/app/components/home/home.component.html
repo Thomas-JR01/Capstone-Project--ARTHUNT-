@@ -1,0 +1,54 @@
+<app-loading *ngIf="loading"></app-loading>
+<div *ngIf="!loading && !eventInactive">
+    <div class="menu">
+        <button id="map" (click)="gotoMap()"><mat-icon class="mat-icon" id="map-icon">public</mat-icon><h2 id="map-btn-text">Map</h2></button>
+        <button id="leaderboard" type="button" (click)="gotoLeaderboard()"><mat-icon id="mat-icon">leaderboard</mat-icon><h2 id="leaderboard-btn-text">Leaderboard</h2></button>
+        <button id="artsites" type="button" (click)="gotoSitesList()"><mat-icon id="mat-icon">place</mat-icon><h2 id="sites-btn-text">Art Sites</h2></button>
+        <button id="strategies" type="button" (click)="gotoStrategies()"><mat-icon id="mat-icon">engineering</mat-icon><h2 id="strategies-btn-text">Strategies</h2></button>
+        <button id="history" type="button" (click)="gotoHistory()"><mat-icon id="mat-icon">history_edu</mat-icon><h2 id="history-btn-text">History</h2></button>
+        <button id="instructions" type="button" (click)="gotoInstructions()"><mat-icon id="mat-icon">info</mat-icon><h2 id="instructions-btn-text">Instructions</h2></button>
+    </div>
+    
+    <div>
+        <button id="chat-btn" type="button" (click)="gotoChat()">Chat</button>
+        <button id="contacts-btn" type="button" (click)="gotoContacts()">Contacts</button>
+    </div>
+    
+    <div class="team-status">
+        <h2 id="team-name">{{teamName}}</h2>
+        <span id="team-points">Points: <h2 id="points-text">{{points}} </h2></span>
+        <span id="team-strat">Strategy: <h2 id="strategy-text">{{strategySelected}}</h2></span>
+        <div id="team-status-btns">
+            <button id="transfer-btn" type="button" (click)="transferPoints()">Transfer Points</button>
+        </div>
+    </div>
+    
+    <div class="game-status">
+        <div id="round-timer">
+            Event Time Left 
+            <h3>{{eventTimeLeft()}}</h3>
+        </div>
+        <div id="site-recovery-timer">
+            Site Recovery 
+            <h3>{{siteRecoveryTimer()}}</h3>
+        </div>
+    </div>
+    
+    <div>
+        <button id="logout-btn" type="button" (click)="logout()">Logout</button>
+    </div>
+</div>
+
+<div class="server-error" *ngIf="!loading && eventInactive">
+    <div>
+        <div class="server-error-msg">
+            <mat-icon id="error-icon">signal_wifi_statusbar_connected_no_internet_4</mat-icon>
+            <h2>The event may be paused.</h2>
+            <h2 id="retry-text">Retrying in {{retryTime}}...</h2>
+        </div>
+        <div>
+            <button id="logout-btn" type="button" (click)="logout()">Logout</button>
+        </div>
+    </div>
+
+</div>

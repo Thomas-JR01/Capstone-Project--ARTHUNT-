@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "610e0e2df99c1224b7c3b25d"
+  },
+  "event": 1,
+  "site_num": 0,
+  "site_id": {
+    "$oid": "610e084ef99c1224b7c3b24c"
+  },
+  "active": true,
+  "locked": false,
+  "depleted": false,
+  "notes": "This is the site hint!",
+  "points": {
+    "total_amt": 100,
+    "site_pct": 25,
+    "title_pct": 5,
+    "theme_pct": 40,
+    "closeup_pct": 20,
+    "artist_pct": 5,
+    "year_pct": 5
+  },
+  "adjustment_factor": 1,
+  "visits": 0,
+  "choices": {
+    "title": ["N1","a","b","c","d","e","f","g","h","i"],
+    "theme": ["T1","a","b","c","d","e","f","g","h","i"],
+    "closeup": ["sample_ti1.png","a","b","c","d","e","f","g","h","i"],
+    "artist": ["A1","a","b","c","d","e","f","g","h","i"],
+    "year": [2001,"a","b","c","d","e","f","g","h","i"]
+  },
+  "growth_rate": 1.1
+}]

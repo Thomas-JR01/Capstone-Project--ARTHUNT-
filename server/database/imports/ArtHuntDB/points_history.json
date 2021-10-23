@@ -1,0 +1,12 @@
+[{
+	"_id": {
+        "$oid": "615748292407c9ef1c9dc4d3"
+    },
+	"event": 1,
+	"team_id": 1,
+	"points_diff": 1.1,
+	"old_value": 100,
+	"new_value": 101.1,
+	"reason": "growth",
+	"timestamp": "17:12:30"
+}]

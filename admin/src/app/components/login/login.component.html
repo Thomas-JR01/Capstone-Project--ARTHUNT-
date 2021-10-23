@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="login-title">
+        <h1 class="title">ArtHunt</h1>
+        <h6 class="subtitle">ADMIN PORTAL</h6>
+    </div>
+    
+    <form [formGroup]="loginForm" class="login-form" (ngSubmit)="login()">
+    
+        <div class="form-group">
+            <div class="login-name">
+                <div>
+                    <label>Username</label>
+                </div>
+                <input spellcheck="false" type="text" formControlName="username" [ngStyle]="invalid ? {'border-color': 'red'} : null" placeholder="username..."/>
+                <h3 class="error-text" id="name-error" *ngIf="invalid">* {{nameErrorText}}</h3>
+            </div>
+        </div>
+    
+        <div class="form-group">
+            <div class="login-password">
+                <div>
+                    <label>Password</label>
+                </div>
+                <input spellcheck="false" type="password" formControlName="password" [ngStyle]="invalid ? {'border-color': 'red'} : null" placeholder="password..."/>
+                <h3 class="error-text" id="password-error" *ngIf="invalid">* {{pinErrorText}}</h3>
+            </div>
+        </div>
+    
+        <div>
+            <button class="button" type="submit">Login</button>
+        </div>
+    
+    </form>
+    
+    <footer>
+        <p class="footer__text">COPYRIGHT @ 2021</p>
+    </footer>
+</div>
